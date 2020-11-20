@@ -1,12 +1,13 @@
 import "./App.scss";
-import { Button } from "react-bootstrap";
+import { Router } from "react-router-dom";
+import Content from "./components/content/Content";
+import history from "./browserHistory";
 
 function App() {
   return (
-    <>
-      <h1>Hello Kasia!</h1>
-      <Button>Click</Button>
-    </>
+    <Router history={history}>
+      <Content />
+    </Router>
   );
 }
 
