@@ -12,7 +12,7 @@ import {
     ImgCloud,
     ImgCloudText,
 } from './styles';
-import {Span, SpanContainer} from '../atoms/styles';
+import {Span, SpanContainer, H3} from '../atoms/styles';
 import imgBig from '../../../../src/styles/assets/img/app-main.png';
 import imgSmall from '../../../styles/assets/img/cloud.png';
 import mobileFirst from '../../../styles/assets/img/scan-view.png';
@@ -34,8 +34,47 @@ const AboutApp = () => {
             </AppContainer>
             <AboutAppContainer>
                 <ImgContainer>
+                    <H3 isSpecialFont isWhite isSmall isBold>
+                        Znajdź miejsce dla swoich śmieci
+                    </H3>
                     <ImgBox>
                         <Img1 src={mobileFirst} alt="" />
+                    </ImgBox>
+                    <ImgText>
+                        <SpanContainer>
+                            {' '}
+
+                            <Span isWhite>
+                                Niezależnie, czy są to przeterminowane leki, baterie, elektrośmieci, odpady niebezpieczne czy inne niestandardowe śmieci, znajdź miejsce w swojej okolicy, gdzie możesz je oddać.
+                            </Span>
+                        </SpanContainer>
+                    </ImgText>
+                </ImgContainer>
+                <ImgContainer>
+                    <ImgBox>
+                        <H3 isSpecialFont isWhite isSmall isBold>
+                            Zorganizuj zbiórkę
+                        </H3>
+                        <Img2
+                            src={mobileFirst}
+                            alt=""
+                        />
+                    </ImgBox>
+                    <ImgText>
+                        <SpanContainer>
+                            <Span isWhite>
+                                Nakrętki, puszki czy ubrania wreszcie znajdą odpowiednie miejsce czy nowego właściciela
+                            </Span>
+
+                        </SpanContainer>
+                    </ImgText>
+                </ImgContainer>
+                <ImgContainer>
+                    <H3 isSpecialFont isWhite isSmall isBold>
+                        Sprawdź jak poprawnie segregować
+                    </H3>
+                    <ImgBox>
+                        <Img3 src={mobileFirst} alt="" />
                     </ImgBox>
                     <ImgText>
                         <SpanContainer>
@@ -50,46 +89,6 @@ const AboutApp = () => {
                             <Span isWhite>
                                 produktu – nasza aplikacja pokaże ci, gdzie wyrzucić dane
                                 opakowanie
-                            </Span>
-                        </SpanContainer>
-                    </ImgText>
-                </ImgContainer>
-                <ImgContainer>
-                    <ImgBox>
-                        <Img2
-                            src={mobileFirst}
-                            alt=""
-                        />
-                    </ImgBox>
-                    <ImgText>
-                        <SpanContainer>
-                            <Span isWhite>
-                                Zbieraj punkty za skanowanie i wymieniaj je na zniżki na{' '}
-                            </Span>
-                            <Span isBold isWhite>
-                                produkty zero waste{' '}
-                            </Span>{' '}
-                            <Span isWhite>
-                                lub usługi u naszych partnerów. Po prostu – zbieraj punkty i
-                                wymieniaj je na atrakcyjne nagrody
-                            </Span>
-                        </SpanContainer>
-                    </ImgText>
-                </ImgContainer>
-                <ImgContainer>
-                    <ImgBox>
-                        <Img3 src={mobileFirst} alt="" />
-                    </ImgBox>
-                    <ImgText>
-                        <SpanContainer>
-                            <Span isWhite>Monitoruj swój </Span>
-                            <Span isBold isWhite>
-                                ślad węglowy
-                            </Span>
-                            <Span isWhite>
-                                . Dzięki naszym podsumowaniom z łatwością zobaczysz, jak
-                                ekologiczne są Twoje zakupy. Pokażemy Ci też, co kupować, aby
-                                wywierać jak najmniejszy negatywny wpływ na środowisko
                             </Span>
                         </SpanContainer>
                     </ImgText>

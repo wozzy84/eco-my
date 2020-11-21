@@ -25,6 +25,8 @@ export const Container = styled.div``;
 
 export const Span = styled.span`
   font-weight: ${({isBold}) => (isBold ? '700' : '400')};
+  line-height: 22px;
+  font-size: 16px;
   display: ${({isBlock}) => (isBlock ? 'block' : 'inline')};
   text-align: left;
   display: ${({isBlock}) => (isBlock ? 'block' : 'inline')};
@@ -70,9 +72,10 @@ export const H2 = styled.h2`
 `;
 
 export const H3 = styled.h3`
-  font-size: 25px;
-  font-weight: 400;
-  font-family: 'Roboto',serif;
+  font-size: ${({isSmall}) => isSmall ? '20px' : '25px'};
+  font-weight: ${({isBold}) => (isBold ? '700' : '400')};
+ font-family: ${({isSpecialFont}) =>
+    isSpecialFont ? `'Mali', cursive` : `'Roboto'`};
   line-height: 25px;
   text-align: left;
   color: ${({isWhite}) => (isWhite ? '#fff' : 'rgb(48, 49, 51)')};
