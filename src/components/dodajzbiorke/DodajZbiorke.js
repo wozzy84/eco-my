@@ -6,6 +6,8 @@ import { Formik } from "formik";
 import FormTagi from "./FormTagi";
 import FormOdbiorca from "./FormOdiobrca";
 import FormEvent from "./FormEvent";
+import FormDetails from "./FormDetails";
+import FormSummary from "./FormSummary";
 
 const DodajZbiorke = () => {
   const [formStep, setFormStep] = useState(1);
@@ -35,6 +37,7 @@ const DodajZbiorke = () => {
     },
     tag: "",
     tagArr: [],
+    bezterminowa: false,
   };
 
   const getCurrentForm = (step, form) => {
@@ -49,6 +52,10 @@ const DodajZbiorke = () => {
         return <FormOdbiorca form={form} values={form.values} />;
       case 5:
         return <FormEvent form={form} values={form.values} />;
+      case 6:
+        return <FormDetails form={form} values={form.values} />;
+      case 7:
+        return <FormSummary form={form} values={form.values} />;
       default:
         return null;
     }
