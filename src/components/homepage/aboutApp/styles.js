@@ -53,12 +53,21 @@ export const ImgBox = styled.div``;
 
 export const Img1 = styled.img`
   width: 220px;
+  :hover {
+  cursor: pointer;
+  }
 `;
 export const Img2 = styled.img`
   width: 220px;
+    :hover {
+  cursor: pointer;
+  }
 `;
 export const Img3 = styled.img`
   width: 220px;
+    :hover {
+  cursor: pointer;
+  }
 `;
 
 export const ImgText = styled.div`

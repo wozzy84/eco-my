@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   AboutAppContainer,
   AppContainer,
@@ -50,11 +51,17 @@ const AboutApp = () => {
       </AppContainer>
       <AboutAppContainer>
         <ImgContainer data-aos="fade-up">
+          <Link to="/oddaj">
           <H3 isSpecialFont isWhite isSmall isBold>
             Znajdź miejsce dla swoich śmieci
           </H3>
+          </Link>
+
           <ImgBox>
+            <Link to="/oddaj">
+
             <Img1 src={mobileMap} alt="" />
+            </Link>
           </ImgBox>
           <ImgText>
             <SpanContainer>
@@ -66,13 +73,20 @@ const AboutApp = () => {
               </Span>
             </SpanContainer>
           </ImgText>
+
         </ImgContainer>
         <ImgContainer data-aos="fade-up">
+          <Link to="/dodaj-zbiorke">
+
+          <H3 isSpecialFont isWhite isSmall isBold>
+            Zorganizuj zbiórkę
+          </H3>
+          </Link>
           <ImgBox>
-            <H3 isSpecialFont isWhite isSmall isBold>
-              Zorganizuj zbiórkę
-            </H3>
+            <Link to="/dodaj-zbiorke">
+
             <Img2 src={mobileMap} alt="" />
+            </Link>
           </ImgBox>
           <ImgText>
             <SpanContainer>
@@ -88,6 +102,7 @@ const AboutApp = () => {
             Sprawdź jak poprawnie segregować
           </H3>
           <ImgBox>
+
             <Img3 src={mobileScan} alt="" />
           </ImgBox>
           <ImgText>
