@@ -7,7 +7,7 @@ import {
     Img,
     TitleContainer,
 } from './styles';
-import {H4} from '../atoms/styles';
+import {H4} from '../../atoms/styles';
 import img from './../../../styles/assets/img/leaf-white.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';

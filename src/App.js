@@ -2,7 +2,7 @@ import "./App.scss";
 import { Router } from "react-router-dom";
 import Content from "./components/content/Content";
 import history from "./browserHistory";
-import {GlobalStyle} from "./components/homepage/atoms/styles";
+import {GlobalStyle} from "./components/atoms/styles";
 import React from "react";
 
 function App() {

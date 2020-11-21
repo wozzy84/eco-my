@@ -1,6 +1,6 @@
 import React from 'react';
 import {JoinContainer, Box} from './styles';
-import {H2} from '../atoms/styles';
+import {H2} from '../../atoms/styles';
 import BoxItems from './BoxItems';
 import imgFirst from '../../../styles/assets/img/group-volunteers-joining_01a.jpg';
 import imgSecond from '../../../styles/assets/img/618_01a.jpg';
