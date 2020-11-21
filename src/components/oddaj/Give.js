@@ -1,7 +1,7 @@
 import React from "react";
-import {HonPage, H3} from '../atoms/styles';
-import {GiveContainer, Items, Item, Button} from './styles'
-
+import {HonPage} from '../atoms/styles';
+import {GiveContainer, Items, ImgBoxContainer, Button} from './styles'
+import ImgBox from "../znajdzzbiorke/ImgBox";
 const Give= () => {
     const photos = [
         {
@@ -43,19 +43,16 @@ const Give= () => {
             <GiveContainer>
                 <HonPage>'Chcę oddać"</HonPage>
                 <Items>
-                    <Item>
-                        {/*<ImgBoxContainer>*/}
-                        {/*    {photos.map((person, index) => (*/}
-                        {/*        <ImgBox*/}
-                        {/*            key={index}*/}
-                        {/*            face={person.url}*/}
-                        {/*            name={person.name}*/}
-                        {/*            description={person.description}*/}
-                        {/*        />*/}
-                        {/*    ))}*/}
-                        {/*</ImgBoxContainer>*/}
 
-                    </Item>
+                        <ImgBoxContainer>
+                            {photos.map((person, index) => (
+                                <ImgBox
+                                    key={index}
+                                    face={person.url}
+                                    name={person.name}
+                                />
+                            ))}
+                        </ImgBoxContainer>
                 </Items>
                 <Button>Znajdz</Button>
             </GiveContainer>;
