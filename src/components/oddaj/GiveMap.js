@@ -1,7 +1,6 @@
 import React from "react";
 import {GiveContainer,MapContainer, Map, ListPlaces, Place, PlaceText } from "./styles";
 import {H3} from "../atoms/styles";
-import avatar from "../../styles/assets/img/panda-AVATAR.png";
 
 
 const GiveMap= ({type}) => {
@@ -15,7 +14,7 @@ const GiveMap= ({type}) => {
             name: 'Apteka 2',
         },
         {
-            adress: avatar,
+            adress: 'blaa',
             name: 'Apteka3',
         },
     ];

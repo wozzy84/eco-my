@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Img, ImgTick} from './styles';
 import { H3} from '../atoms/styles';
-import tick from '../../styles/assets/img/ptaszek-02.png'
+import tick from '../../styles/assets/img/ptaszek-02-min.png'
 
 const ImgBox = ({face, name, clicked}) => {
     const [active, setActive] = useState(false);

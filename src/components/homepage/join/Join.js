@@ -3,7 +3,7 @@ import {JoinContainer, Box} from './styles';
 import {H2} from '../../atoms/styles';
 import BoxItems from './BoxItems';
 import imgFirst from '../../../styles/assets/img/group-volunteers-joining_01a.jpg';
-import imgSecond from '../../../styles/assets/img/618_01a.jpg';
+import imgSecond from '../../../styles/assets/img/618_01a-min.jpg';
 
 const Join = () => {
     const titleFirst = 'Jestem mieszkańcem';
@@ -11,14 +11,14 @@ const Join = () => {
     const textFirst =
         'Interesujesz się ekologią i chciałbyś otrzymywać najnowsze informacje o naszym projekcie i nowinki ze świata less waste? Zapisz się do newslettera. Obiecujemy, że nie będziemy spamować Twojej skrzynki!';
     const textSecond =
-        'Chciałbyś wprowadzić nasze rozwiązanie w swojej gminie? Bardzo się cieszymy – Napisz do nas na EcoMYApp@gmail.com!';
+        'Chciałbyś wprowadzić nasze rozwiązanie w swojej gminie? Bardzo się cieszymy – Napisz do nas na ecoMyApp@gmail.com!';
     const buttonTextFirst = 'Chcę być na bieżąco';
     const buttonTextSecond = 'Napisz do nas';
 
     return (
         <JoinContainer>
             <H2>
-                Dołącz do społeczności EcoMY i przekonaj się, że śmieć to pieniądz
+                Dołącz do społeczności ecoMy i przekonaj się, że śmieć to pieniądz
             </H2>
             <Box>
                 <BoxItems

@@ -13,9 +13,11 @@ import {
   ImgCloudText,
 } from "./styles";
 import { Span, SpanContainer, H3 } from "../../atoms/styles";
-import imgBig from "../../../styles/assets/img/app-main.png";
-import imgSmall from "../../../styles/assets/img/cloud.png";
-import mobileFirst from "../../../styles/assets/img/scan-view.png";
+import imgBig from "../../../styles/assets/img/app-main-min.png";
+import imgSmall from "../../../styles/assets/img/cloud-min.png";
+import mobileMap from "../../../styles/assets/img/app-view1.png";
+import mobileGive from "../../../styles/assets/img/app-view-give.png";
+import mobileScan from "../../../styles/assets/img/scan-view-min.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -52,7 +54,7 @@ const AboutApp = () => {
             Znajdź miejsce dla swoich śmieci
           </H3>
           <ImgBox>
-            <Img1 src={mobileFirst} alt="" />
+            <Img1 src={mobileMap} alt="" />
           </ImgBox>
           <ImgText>
             <SpanContainer>
@@ -70,7 +72,7 @@ const AboutApp = () => {
             <H3 isSpecialFont isWhite isSmall isBold>
               Zorganizuj zbiórkę
             </H3>
-            <Img2 src={mobileFirst} alt="" />
+            <Img2 src={mobileMap} alt="" />
           </ImgBox>
           <ImgText>
             <SpanContainer>
@@ -86,7 +88,7 @@ const AboutApp = () => {
             Sprawdź jak poprawnie segregować
           </H3>
           <ImgBox>
-            <Img3 src={mobileFirst} alt="" />
+            <Img3 src={mobileScan} alt="" />
           </ImgBox>
           <ImgText>
             <SpanContainer>

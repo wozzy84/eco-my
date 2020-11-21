@@ -19,7 +19,7 @@ export const TextBox = styled.div`
   display: flex;
   flex-direction: column;
   align-self: center;
-  align-content: center;
+  align-items: center;
   @media (max-width: 360px) {
     width: 90%;
   }

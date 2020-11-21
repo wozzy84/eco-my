@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../../../src/styles/assets/img/front-view-woman_01a.jpg';
+import img from '../../../../src/styles/assets/img/front-view-woman_01a-min.jpg';
 
 export const BannerContainer = styled.div`
   width: 100%;

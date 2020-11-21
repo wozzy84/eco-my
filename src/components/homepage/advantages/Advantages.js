@@ -11,8 +11,8 @@ import {
     ListItems,
     Wrapper,
 } from './styles';
-import houseImg from '../../../styles/assets/img/green_house.png';
-import cityImg from '../../../styles/assets/img/greenCity.png';
+import houseImg from '../../../styles/assets/img/green_house-min.png';
+import cityImg from '../../../styles/assets/img/greenCity-min.png';
 
 const Advantages = () => {
     const titleLeft = 'Mieszkańców';
