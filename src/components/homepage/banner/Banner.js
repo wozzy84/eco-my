@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {BannerContainer, BannerImg, Img} from './styles';
-import {H1} from '../atoms/styles';
+import {H1} from '../../atoms/styles';
 import img from './../../../styles/assets/img/leaf-green.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
