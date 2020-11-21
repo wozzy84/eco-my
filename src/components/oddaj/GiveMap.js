@@ -4,7 +4,7 @@ import {H3} from "../atoms/styles";
 import avatar from "../../styles/assets/img/panda-AVATAR.png";
 
 
-const GiveMap= () => {
+const GiveMap= ({type}) => {
     const meds = [
         {
             adress: '3-go Maja',
@@ -18,11 +18,118 @@ const GiveMap= () => {
             adress: avatar,
             name: 'Apteka3',
         },
+    ];
+
+    const electro = [
+        {
+            adress: '3-go Maja',
+            name: 'elektro1',
+        },
+        {
+            adress: '11 Listopada',
+            name: 'elektro2',
+        },
+        {
+            adress: 'Wiejska',
+            name: 'elektro3',
+        },
+
+
+    ];
+
+    const clothes = [
+        {
+            adress: '3-go Maja',
+            name: 'Apteka',
+        },
+        {
+            adress: '11 Listopada',
+            name: 'Apteka 2',
+        },
+        {
+            adress: 'Malinowa',
+            name: 'Apteka3',
+        },
 
 
     ];
 
 
+    const caps = [
+        {
+            adress: '3-go Maja',
+            name: 'Apteka',
+        },
+        {
+            adress: '11 Listopada',
+            name: 'Apteka 2',
+        },
+        {
+            adress: 'Wiejska',
+            name: 'Apteka3',
+        },
+
+
+    ];
+
+    const toys = [
+        {
+            adress: '3-go Maja',
+            name: 'Szop1',
+        },
+        {
+            adress: '11 Listopada',
+            name: 'Szop2',
+        },
+        {
+            adress: 'Chełmska',
+            name: 'Szop3',
+        },
+
+
+    ];
+
+    const handleCheck = ({type}) => {
+        switch (type) {
+           case 'electro':
+           return ( electro.map((electric, index) => (
+                <Place
+                    key={index}
+                ><PlaceText>{electric.name}</PlaceText></Place>
+            )))
+            case 'meds':
+                return (meds.map((med, index) => (
+                <Place
+                    key={index}
+                ><PlaceText>{med.name}</PlaceText></Place>
+            )))
+
+            case 'clothes':
+            return (clothes.map((item, index) => (
+                <Place
+                    key={index}
+                ><PlaceText>{item.name}</PlaceText></Place>
+            )))
+
+            case 'caps':
+            return (caps.map((item, index) => (
+                <Place
+                    key={index}
+                ><PlaceText>{item.name}</PlaceText></Place>
+            )))
+
+            case 'toys':
+            return (toys.map((item, index) => (
+                <Place
+                    key={index}
+                ><PlaceText>{item.name}</PlaceText></Place>
+            )))
+            default:
+                return null;
+        }
+
+    }
+const places = handleCheck({type})
     return (
         <>
             <GiveContainer>
@@ -30,11 +137,13 @@ const GiveMap= () => {
 <MapContainer>
 <Map></Map>
     <ListPlaces>
-        {meds.map((med, index) => (
-            <Place
-                key={index}
-            ><PlaceText>{med.name}</PlaceText></Place>
-        ))}
+        {/*{meds.map((med, index) => (*/}
+        {/*    <Place*/}
+        {/*        key={index}*/}
+        {/*    ><PlaceText>{med.name}</PlaceText></Place>*/}
+        {/*))}*/}
+
+        {places}
 
     </ListPlaces>
 </MapContainer>
