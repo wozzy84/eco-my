@@ -11,6 +11,7 @@ const FormOdbiorca = ({ form }) => {
         onChange={(e) => form.setFieldValue("odbiorca", e.target.value)}
         as="select"
       >
+        <option value=""></option>
         <option value="PPHU ZIELONE MIASTO SP ZOO">
           PPHU "ZIELONE MIASTO SP ZOO"
         </option>

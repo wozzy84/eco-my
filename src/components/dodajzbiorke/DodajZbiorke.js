@@ -38,6 +38,14 @@ const DodajZbiorke = () => {
     tag: "",
     tagArr: [],
     bezterminowa: false,
+    ContactPerson: "",
+    contactPhone: "",
+    endDate: "",
+    startDate: "",
+    endHour: "",
+    startHour: "",
+    opis: "",
+    odbiorca: "",
   };
 
   const getCurrentForm = (step, form) => {

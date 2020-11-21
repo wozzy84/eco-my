@@ -21,6 +21,7 @@ const FormCel = ({ form }) => {
           onChange={(e) => form.setFieldValue("cel.cel", e.target.value)}
           as="select"
         >
+          <option value=""></option>
           <option value="Charytatywny">Charytatywny</option>
           <option value="Społeczny">Społeczny</option>
           <option value="Skup">Skup</option>

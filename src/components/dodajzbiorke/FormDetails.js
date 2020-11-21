@@ -1,26 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Form } from "react-bootstrap";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const FormDetails = ({ form }) => {
-  const [startDate, setStartDate] = useState(new Date());
+  const [startDate, setStartDate] = useState(
+    form.values.startDate || new Date()
+  );
   const [startHour, setStartHour] = useState(new Date());
-  const [endDate, setEndDate] = useState(null);
+  const [endHour, setEndHour] = useState(new Date());
+  const [endDate, setEndDate] = useState(form.values.endDate || null);
   const onChange = (dates) => {
     const [start, end] = dates;
     setStartDate(start);
     setEndDate(end);
+    console.log(end);
   };
+
+  useEffect(() => {
+    form.setFieldValue("startDate", startDate);
+    form.setFieldValue("endDate", endDate);
+  }, [startDate, endDate]);
+
+  useEffect(() => {
+    form.setFieldValue("startHour", startHour);
+    form.setFieldValue("endHour", endHour);
+  }, [startDate, endDate]);
 
   return (
     <>
       <Form.Label>Adres zbiórki </Form.Label>
       <Form.Control
-        value={form.values.tag}
-        name="tag"
+        value={form.values.address}
+        name="address"
         type="text"
-        placeholder="Dodaj Tag"
+        placeholder="Adres"
         onChange={form.handleChange}
       />
       <Form.Group>
@@ -57,8 +71,8 @@ const FormDetails = ({ form }) => {
       <Form.Group>
         <Form.Label>do:</Form.Label>
         <DatePicker
-          selected={startHour}
-          onChange={(hour) => setStartHour(hour)}
+          selected={endHour}
+          onChange={(hour) => setEndHour(hour)}
           showTimeSelect
           showTimeSelectOnly
           timeIntervals={15}
@@ -69,8 +83,8 @@ const FormDetails = ({ form }) => {
 
       <Form.Label>Osoba kontaktowa </Form.Label>
       <Form.Control
-        value={form.values.tag}
-        name="tag"
+        value={form.values.contactPerson}
+        name="ContactPerson"
         type="text"
         placeholder="Imię i nazwisko"
         onChange={form.handleChange}
@@ -78,8 +92,8 @@ const FormDetails = ({ form }) => {
 
       <Form.Label>Telefon </Form.Label>
       <Form.Control
-        value={form.values.tag}
-        name="tag"
+        value={form.values.contactPhone}
+        name="contactPhone"
         type="text"
         placeholder="Numer telefonu"
         onChange={form.handleChange}
