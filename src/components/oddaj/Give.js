@@ -3,6 +3,7 @@ import {HonPage} from '../atoms/styles';
 import {GiveContainer, Items, ImgBoxContainer, Button} from './styles'
 import ImgBox from "./ImgBox";
 import avatar from '../../../src/styles/assets/img/panda-AVATAR.png'
+import GiveMap from "./GiveMap";
 const Give= () => {
     const photos = [
         {
@@ -50,6 +51,7 @@ const Give= () => {
                 <Button>Wyszukaj</Button>
 
             </GiveContainer>;
+            <GiveMap/>
         </>
         )
 
