@@ -17,7 +17,15 @@ const DodajZbiorke = () => {
   };
 
   const initialValues = {
-    nakretki: true,
+    coZbieram: {
+      nakretki: false,
+      baterie: false,
+      ubrania: false,
+      elektrosmieci: false,
+      ksiazki: false,
+      zlom: false,
+      metal: false,
+    },
   };
 
   const getCurrentForm = (step, form) => {
