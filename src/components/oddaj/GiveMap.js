@@ -18,8 +18,6 @@ const GiveMap= ({type}) => {
             adress: avatar,
             name: 'Apteka3',
         },
-
-
     ];
 
     const electro = [
