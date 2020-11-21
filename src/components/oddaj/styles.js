@@ -4,6 +4,7 @@ export const GiveContainer = styled.div`
   width: 100%;
   height: 500px;
   display: flex;
+  flex-direction: column;
   @media (max-width: 360px) {
     flex-wrap: wrap;
   }
