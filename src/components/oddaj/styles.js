@@ -55,7 +55,6 @@ width: 50px;
 position: absolute;
 left:0;
 top:-10px;
-display: none;
 `
 
 
