@@ -1,41 +1,35 @@
 import React from "react";
 import {HonPage} from '../atoms/styles';
 import {GiveContainer, Items, ImgBoxContainer, Button} from './styles'
-import ImgBox from "../znajdzzbiorke/ImgBox";
+import ImgBox from "./ImgBox";
+import avatar from '../../../src/styles/assets/img/panda-AVATAR.png'
 const Give= () => {
     const photos = [
         {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
+            url: avatar,
             name: 'mordka 1',
         },
         {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
+            url: avatar,
             name: 'mordka 2',
         },
         {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
+            url: avatar,
             name: 'mordka 3',
         },
         {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
+            url: avatar,
             name: 'mordka 4',
         },
         {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
+            url: avatar,
             name: 'mordka 5',
         },
         {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
+            url: avatar,
             name: 'mordka 6',
         },
-        {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
-            name: 'mordka 7',
-        },
-        {
-            url: require('../../../src/styles/assets/img/panda-AVATAR.png'),
-            name: 'mordka 8',
-        },
+
     ];
 
     return (
@@ -43,18 +37,18 @@ const Give= () => {
             <GiveContainer>
                 <HonPage>'Chcę oddać"</HonPage>
                 <Items>
-
                         <ImgBoxContainer>
-                            {photos.map((person, index) => (
+                            {photos.map((photo, index) => (
                                 <ImgBox
                                     key={index}
-                                    face={person.url}
-                                    name={person.name}
+                                    face={photo.url}
+                                    name={photo.name}
                                 />
                             ))}
                         </ImgBoxContainer>
                 </Items>
                 <Button>Znajdz</Button>
+
             </GiveContainer>;
         </>
         )
