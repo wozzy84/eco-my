@@ -7,7 +7,7 @@ import {
     Img,
     TitleContainer,
 } from './styles';
-import {H4, Span} from '../atoms/styles';
+import {H4} from '../atoms/styles';
 import img from './../../../styles/assets/img/leaf-white.png';
 
 const Product = () => {

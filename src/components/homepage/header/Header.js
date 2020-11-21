@@ -30,17 +30,17 @@ const Header = () => {
                         </ListItem>
                         <ListItem>
                             <Title>
-                                <Link>Dla kogo</Link>
+                                <Link>Oddaj</Link>
                             </Title>
                         </ListItem>
                         <ListItem>
                             <Title>
-                                <Link>O nas</Link>
+                                <Link>Znajdź</Link>
                             </Title>
                         </ListItem>
                         <ListItem>
                             <Title>
-                                <Link>Kontakt</Link>
+                                <Link>Zorganizuj</Link>
                             </Title>
                         </ListItem>
                     </List>
