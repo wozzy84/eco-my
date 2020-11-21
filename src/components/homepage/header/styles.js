@@ -85,8 +85,8 @@ export const Title = styled.div`
 export const Logo = styled.div`
   width: 20%;
   img {
-    padding: 10px 10px;
-    height: 100%;
+    padding: 5px 10px;
+    height: 90%;
     margin: 5px 10px;
   }
 `;
