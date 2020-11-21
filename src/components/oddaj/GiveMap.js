@@ -18,22 +18,20 @@ const GiveMap= ({type}) => {
             adress: avatar,
             name: 'Apteka3',
         },
-
-
     ];
 
     const electro = [
         {
             adress: '3-go Maja',
-            name: 'Apteka',
+            name: 'elektro1',
         },
         {
             adress: '11 Listopada',
-            name: 'Apteka 2',
+            name: 'elektro2',
         },
         {
             adress: 'Wiejska',
-            name: 'Apteka3',
+            name: 'elektro3',
         },
 
 
