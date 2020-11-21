@@ -84,3 +84,15 @@ width:50%;
 export const ListPlaces = styled.ul`
 width:50%;
 `
+export const Place = styled.li`
+width:50%;
+list-style: none;
+display: block;
+height: 250px;
+border: solid 2px #4b9382;
+
+`
+
+export const PlaceText = styled.p`
+width:50%;
+`
