@@ -5,6 +5,7 @@ import Product from "./product/Product";
 import AboutApp from "./aboutApp/AboutApp";
 import Advantages from "./advantages/Advantages";
 import Join from "./join/Join";
+import Footer from "./footer/Footer";
 
 const Homepage = () => {
   return <>
@@ -14,6 +15,7 @@ const Homepage = () => {
     <AboutApp/>
     <Advantages/>
     <Join/>
+    <Footer/>
 
     </>;
 };
