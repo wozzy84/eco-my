@@ -17,7 +17,7 @@ import { Span, SpanContainer, H3 } from "../../atoms/styles";
 import imgBig from "../../../styles/assets/img/app-main-min.png";
 import imgSmall from "../../../styles/assets/img/cloud-min.png";
 import mobileMap from "../../../styles/assets/img/app-view1.png";
-import mobileGive from "../../../styles/assets/img/app-view-give.png";
+import mobileOrganize from "../../../styles/assets/img/app-view-organize.png";
 import mobileScan from "../../../styles/assets/img/scan-view-min.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -85,7 +85,7 @@ const AboutApp = () => {
           <ImgBox>
             <Link to="/dodaj-zbiorke">
 
-            <Img2 src={mobileMap} alt="" />
+            <Img2 src={mobileOrganize} alt="" />
             </Link>
           </ImgBox>
           <ImgText>

@@ -44,6 +44,9 @@ export const ImgContainer = styled.div`
   justify-content: space-around;
   padding-bottom: 5%;
   flex-direction: column;
+  a {
+  text-decoration: none;
+  }
   @media (max-width: 360px) {
     font-size: 12px;
   }
