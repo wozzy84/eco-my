@@ -12,7 +12,7 @@ import {
   ImgCloud,
   ImgCloudText,
 } from "./styles";
-import { Span, SpanContainer, H3 } from "../atoms/styles";
+import { Span, SpanContainer, H3 } from "../../atoms/styles";
 import imgBig from "../../../styles/assets/img/app-main.png";
 import imgSmall from "../../../styles/assets/img/cloud.png";
 import mobileFirst from "../../../styles/assets/img/scan-view.png";

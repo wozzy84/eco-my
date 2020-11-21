@@ -1,5 +1,5 @@
 import React from 'react';
-import {H2, H3, Span} from '../atoms/styles';
+import {H2, H3, Span} from '../../atoms/styles';
 import {
     AdvantagesContainer,
     ItemsWrapper,
