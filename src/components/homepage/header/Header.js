@@ -27,17 +27,17 @@ const Header = () => {
             </ListItem>
             <ListItem>
               <Title>
-                <Link to="/oddaj">Oddaj</Link>
+                <Link to="/oddaj">Oddaj śmieci</Link>
               </Title>
             </ListItem>
             <ListItem>
               <Title>
-                <Link to="/znajdz">Znajdź</Link>
+                <Link to="/znajdz">Znajdź zbiórkę</Link>
               </Title>
             </ListItem>
             <ListItem>
               <Title>
-                <Link to="/dodaj-zbiorke">Zorganizuj</Link>
+                <Link to="/dodaj-zbiorke">Zorganizuj zbiórkę</Link>
               </Title>
             </ListItem>
           </List>
