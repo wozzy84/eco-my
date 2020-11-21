@@ -13,6 +13,7 @@ margin: 0 auto;
 
 export const Items = styled.div`
     width: 100%;
+    padding-top: 100px;
     display: flex;
     
     @media (max-width: 360px) {
@@ -34,6 +35,8 @@ export const ImgBoxContainer = styled.div`
 `;
 export const Img = styled.div`
 width: 30%;
+position: relative;
+
  img {
    width: 50%;
     @media (max-width: 360px) {
@@ -43,8 +46,18 @@ width: 30%;
  }
   :hover {
   cursor: pointer;
+ 
   }
 `;
+
+export const ImgTick = styled.img`
+width: 50px;
+position: absolute;
+left:0;
+top:-10px;
+display: none;
+`
+
 
 export const Button = styled.button`
   margin-top: 100px;
