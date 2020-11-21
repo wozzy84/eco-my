@@ -25,8 +25,8 @@ export const Container = styled.div``;
 
 export const Span = styled.span`
   font-weight: ${({isBold}) => (isBold ? '700' : '400')};
-  line-height: 22px;
-  font-size: 16px;
+  line-height: 24px;
+ font-size: ${({isBig}) => (isBig ? '22px' : '16px')};
   display: ${({isBlock}) => (isBlock ? 'block' : 'inline')};
   text-align: left;
   display: ${({isBlock}) => (isBlock ? 'block' : 'inline')};

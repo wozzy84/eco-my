@@ -1,4 +1,4 @@
-import React from 'react';
+import React,  {useEffect} from 'react';
 import {
     AboutAppContainer,
     AppContainer,
@@ -16,24 +16,31 @@ import {Span, SpanContainer, H3} from '../atoms/styles';
 import imgBig from '../../../../src/styles/assets/img/app-main.png';
 import imgSmall from '../../../styles/assets/img/cloud.png';
 import mobileFirst from '../../../styles/assets/img/scan-view.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const AboutApp = () => {
+    useEffect(() => {
+        Aos.init({
+            duration: 3000,
+            easing: 'ease-in-sine',});
+    }, []);
     return (
         <>
             <AppContainer>
-                <ImgMain src={imgBig} />
-                <ImgCloud src={imgSmall} />
-                <ImgCloudText>
-                    <Span isBlock>Mamy na to sposób. </Span>
-                    <Span isBlock isWhite isBold>
+                <ImgMain data-aos="fade-up" src={imgBig} />
+                <ImgCloud data-aos="fade-up" src={imgSmall} />
+                <ImgCloudText data-aos="fade-up">
+                    <Span isBlock isBig>Mamy na to sposób. </Span>
+                    <Span isBlock isWhite isBold isBig>
                         Aplikacja EcoMy{' '}
                     </Span>
-                    <Span isBlock> pokaże Ci, jak segregować </Span>
-                    <Span isBlock>i... oszczędzić. Jak? </Span>
+                    <Span isBig isBlock> pokaże Ci, jak segregować </Span>
+                    <Span isBig isBlock>i... oszczędzić. Jak? </Span>
                 </ImgCloudText>
             </AppContainer>
             <AboutAppContainer>
-                <ImgContainer>
+                <ImgContainer data-aos="fade-up">
                     <H3 isSpecialFont isWhite isSmall isBold>
                         Znajdź miejsce dla swoich śmieci
                     </H3>
@@ -50,7 +57,7 @@ const AboutApp = () => {
                         </SpanContainer>
                     </ImgText>
                 </ImgContainer>
-                <ImgContainer>
+                <ImgContainer data-aos="fade-up">
                     <ImgBox>
                         <H3 isSpecialFont isWhite isSmall isBold>
                             Zorganizuj zbiórkę
@@ -69,7 +76,7 @@ const AboutApp = () => {
                         </SpanContainer>
                     </ImgText>
                 </ImgContainer>
-                <ImgContainer>
+                <ImgContainer data-aos="fade-up">
                     <H3 isSpecialFont isWhite isSmall isBold>
                         Sprawdź jak poprawnie segregować
                     </H3>
