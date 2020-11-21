@@ -1,0 +1,3456 @@
+{
+	"places": [
+		{
+			"id": 1,
+			"address": "11 Listopada 2a",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1,
+			"location": {
+				"lat": 51.1342672,
+				"lng": 23.4950685
+			}
+		},
+		{
+			"id": 2,
+			"address": "11 Listopada 4-6",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 3,
+			"address": "Al. 3-go Maja 12",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1,
+			"location": {
+				"lat": 51.1193456,
+				"lng": 23.4707004
+			}
+		},
+		{
+			"id": 4,
+			"address": "Al. 3-go Maja 12a",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 5,
+			"address": "Al. 3-go Maja 14",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 6,
+			"address": "Al. 3-go Maja 14a",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 7,
+			"address": "Al. 3-go Maja 4",
+			"administrator": "SM Bazylany",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 8,
+			"address": "Al. 3-go Maja 6",
+			"administrator": "SM Bazylany",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 9,
+			"address": "Andersa 16 - Synów Pułku 5",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1,
+			"location": {
+				"lat": 51.1425641,
+				"lng": 23.4335874
+			}
+		},
+		{
+			"id": 10,
+			"address": "Armii Krajowej 11A",
+			"administrator": "WM Topola",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 11,
+			"address": "Armii Krajowej 25",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 12,
+			"address": "Armii Krajowej 29-27",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 13,
+			"address": "Armii Krajowej 30 ",
+			"administrator": "WM Westa",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 14,
+			"address": "Armii Krajowej 32",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 15,
+			"address": "Armii Krajowej 34",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 3
+		},
+		{
+			"id": 16,
+			"address": "Armii Krajowej 38 ",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 17,
+			"address": "Armii Krajowej 9",
+			"administrator": "Demos",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 18,
+			"address": "Bydgoska 1 - Wiejska 18",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 19,
+			"address": "Bydgoska 17",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 20,
+			"address": "Bydgoska 19",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 21,
+			"address": "Bydgoska 9",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 22,
+			"address": "Ceramiczna 3",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 23,
+			"address": "Ceramiczna 36",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 24,
+			"address": "Ceramiczna 36B",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 25,
+			"address": "Ceramiczna 38A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 26,
+			"address": "Ceramiczna 7 - PUM",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 27,
+			"address": "Czackiego 2 - 6",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 28,
+			"address": "Czackiego 4",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 29,
+			"address": "Czarnieckiego 4",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 30,
+			"address": "Czarnieckiego 6",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 31,
+			"address": "Dreszera 10",
+			"administrator": "SM Bazylany",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 32,
+			"address": "Dreszera 28",
+			"administrator": "SM Bazylany",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 33,
+			"address": "Droga Męczenników 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 34,
+			"address": "Droga Męczenników 6 -8-10-12-14",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 35,
+			"address": "Fabryczna  4",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 36,
+			"address": "Grota Roweckiego 2",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 37,
+			"address": "Grota Roweckiego 2a",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 38,
+			"address": "Grota Roweckiego 2b",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 39,
+			"address": "Grota Roweckiego 2c",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 40,
+			"address": "Grota Roweckiego 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 41,
+			"address": "Grota Roweckiego 6",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 42,
+			"address": "Grota Roweckiego 8",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 43,
+			"address": "Hrubieszowska  9",
+			"administrator": "WM Pod Górką",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 44,
+			"address": "Hrubieszowska 110 ",
+			"administrator": "WM Borek 1",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 2,
+			"mixed": 3
+		},
+		{
+			"id": 45,
+			"address": "Hrubieszowska 123B",
+			"administrator": "WM Dziewiątka",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 46,
+			"address": "I AWP 1",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 47,
+			"address": "I AWP 11",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 48,
+			"address": "I AWP 13 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 49,
+			"address": "I AWP 1A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 50,
+			"address": "I AWP 25",
+			"administrator": "ChSM - wjazd od Pow. W-wy",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 51,
+			"address": "I AWP 27",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 52,
+			"address": "I AWP 29",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 53,
+			"address": "I AWP 3",
+			"administrator": "SM Energetyków",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 54,
+			"address": "I AWP 33",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 55,
+			"address": "I AWP 35 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 56,
+			"address": "I AWP 39",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 57,
+			"address": "I AWP 41A",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 58,
+			"address": "I AWP 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 59,
+			"address": "I Pułku Szwoleżerów 14",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 60,
+			"address": "I Pułku Szwoleżerów 17",
+			"administrator": "WM ",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 61,
+			"address": "I Pułku Szwoleżerów 19 ",
+			"administrator": "WM ",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 62,
+			"address": "I Pułku Szwoleżerów 21",
+			"administrator": "WM ",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 63,
+			"address": "Jana Kazimierza 6 (Żwirki i Wigury;J.K.)",
+			"administrator": "WM (garaże)",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 64,
+			"address": "Jedność 41",
+			"administrator": "SM Starówka",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 65,
+			"address": "Jedność 45",
+			"administrator": "SM Jedność",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 66,
+			"address": "Kamieńskiego 1",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 67,
+			"address": "Karłowicza ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 68,
+			"address": "Katedralna 3",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 69,
+			"address": "Katedralna 3 (Wiejska)",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 70,
+			"address": "Kińczyka 1",
+			"administrator": "TBS",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 71,
+			"address": "Kińczyka 6",
+			"administrator": "SM Demos",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 72,
+			"address": "Kolejowa  64A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 73,
+			"address": "Kolejowa 10",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 74,
+			"address": "Kolejowa 110",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 75,
+			"address": "Kolejowa 12",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 76,
+			"address": "Kolejowa 14",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 77,
+			"address": "Kolejowa 16",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 78,
+			"address": "Kolejowa 18",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 79,
+			"address": "Kolejowa 20-22-wjazd od spółdzielni",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 80,
+			"address": "Kolejowa 60 ",
+			"administrator": "SM Demos",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 81,
+			"address": "Kolejowa 62",
+			"administrator": "SM Demos",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 82,
+			"address": "Kolejowa 64 ",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 83,
+			"address": "Kolejowa 67A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 84,
+			"address": "Kolejowa 76 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 85,
+			"address": "Kolejowa 78",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 86,
+			"address": "Kolejowa 80",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 87,
+			"address": "Kolejowa 84",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 88,
+			"address": "Kolejowa 86",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 89,
+			"address": "Kolejowa 90 - 92",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 90,
+			"address": "Kolejowa 91",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 91,
+			"address": "Kopernika 25  ",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 92,
+			"address": "Kopernika 27",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 2
+		},
+		{
+			"id": 93,
+			"address": "Kopernika 29",
+			"administrator": "SM Energetyk - Baszta",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 94,
+			"address": "Kopernika 34",
+			"administrator": "SM Rondo",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 95,
+			"address": "Kosynierów 1a",
+			"administrator": "WM BOREK",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 96,
+			"address": "Kosynierów 1a",
+			"administrator": "WM BOREK",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 97,
+			"address": "Kredowa 11",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 98,
+			"address": "Kredowa 3",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 99,
+			"address": "Kredowa 5",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 100,
+			"address": "Krótka 8",
+			"administrator": " WM Taras ",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 101,
+			"address": "Kurpińskiego 3",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 102,
+			"address": "Kurpińskiego 5",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 103,
+			"address": "Kurpińskiego 6",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 104,
+			"address": "Legionów Polskich 10",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 105,
+			"address": "Legionów Polskich 12",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 106,
+			"address": "Legionów Polskich 18 ",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 107,
+			"address": "Legionów Polskich 2 ",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 108,
+			"address": "Legionów Polskich 20",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 109,
+			"address": "Legionów Polskich 4 ",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 110,
+			"address": "Legionów Polskich 6",
+			"administrator": "WM ",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 111,
+			"address": "Legionów Polskich 8",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 112,
+			"address": "Lubelska 135 A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 113,
+			"address": "Lubelska 135B",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 114,
+			"address": "Lubelska 137B",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 115,
+			"address": "Lubelska 137D",
+			"administrator": "WM Pod Kasztanami",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 116,
+			"address": "Lubelska 139A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 117,
+			"address": "Lubelska 139B",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 118,
+			"address": "Lubelska 139D",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 119,
+			"address": "Lubelska 139E",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 120,
+			"address": "Lubelska 168A",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 121,
+			"address": "Lubelska 17",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 122,
+			"address": "Lubelska 18 ",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 123,
+			"address": "Lubelska 24",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 124,
+			"address": "Lubelska 30 ",
+			"administrator": "WM Kamienica",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 125,
+			"address": "Lubelska Parking za PSS",
+			"administrator": "ChSM Narutowicza 4",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 4
+		},
+		{
+			"id": 126,
+			"address": "Lubelska Parking za PSS",
+			"administrator": "ChSM Narutowicza 8",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 127,
+			"address": "Lubelska Parking za PSS",
+			"administrator": "ChSM Narutowicza 12",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 128,
+			"address": "Lubelska Parking za PSS",
+			"administrator": "WM  Narutowicza 14",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 129,
+			"address": "Lutosławskiego 5",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 130,
+			"address": "Lutosławskiego 6",
+			"administrator": "Demos",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 131,
+			"address": "Lutosławskiego 7",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 132,
+			"address": "Lutowsławskiego 3",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 133,
+			"address": "Łączna 2 - 4",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 134,
+			"address": "Łączna 9",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 135,
+			"address": "Maczka 3",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 136,
+			"address": "Maczka 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 137,
+			"address": "Maczka 7",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 138,
+			"address": "Małachowskiego 1",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 139,
+			"address": "Małachowskiego 2",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 140,
+			"address": "Małachowskiego 3",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 141,
+			"address": "Mickiewicz 16A",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 142,
+			"address": "Mickiewicza 30",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 143,
+			"address": "Mickiewicza 7",
+			"administrator": "PUM (wjazd ELPIE)",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 144,
+			"address": "Mickiewicza 8",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 145,
+			"address": "Młynarska 4 - 6",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 146,
+			"address": "Muzyki 39A Zielone II",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 147,
+			"address": "Muzyki 39B Zielone II",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 148,
+			"address": "Nadrzeczna 5, 7",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 149,
+			"address": "Nadrzeczna 5, 7",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 150,
+			"address": "Nowowiejskiego 3",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 151,
+			"address": "Nowy Świat 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 152,
+			"address": "Nowy Świat 7",
+			"administrator": "ChSM (za pocztą)",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 153,
+			"address": "Obłońska 6",
+			"administrator": "SM Energetyk - Baszta",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 154,
+			"address": "Partyzantów 7",
+			"administrator": "SM Centrum",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 155,
+			"address": "Pilarskiego 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": null,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 156,
+			"address": "Pilarskiego 4A",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 157,
+			"address": "Piłsudskiego 12",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 158,
+			"address": "Piłsudskiego 30B",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 159,
+			"address": "Piłsudskiego 5",
+			"administrator": "WM przy Alei",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 160,
+			"address": "Piłsudskiego 6 - 8",
+			"administrator": "WM Pod Klonami",
+			"metalsSynthetics": 2,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 161,
+			"address": "Piotra Skargi 3",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 162,
+			"address": "Piotra Skargi 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 163,
+			"address": "Piotra Skargi 9",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 164,
+			"address": "Pocztowa 28",
+			"administrator": "SM Centrum",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 165,
+			"address": "Pocztowa 28a",
+			"administrator": "SM Centrum",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 166,
+			"address": "Pocztowa 3",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 167,
+			"address": "Pocztowa 33 ADM",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 168,
+			"address": "Pocztowa 48 ADM",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 169,
+			"address": "Podgórze 2 - 2A",
+			"administrator": "WM-Nasz Dom",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 170,
+			"address": "Podgórze 2C ",
+			"administrator": "WM Rondo",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 171,
+			"address": "Połaniecka  10",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 172,
+			"address": "Połaniecka  2 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 173,
+			"address": "Połaniecka  6",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 174,
+			"address": "Połaniecka  8",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 175,
+			"address": "Połaniecka 1",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 176,
+			"address": "Połaniecka 12 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 177,
+			"address": "Połaniecka 13 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 178,
+			"address": "Połaniecka 14",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 179,
+			"address": "Połaniecka 15",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 180,
+			"address": "Połaniecka 17",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 181,
+			"address": "Połaniecka 21",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 182,
+			"address": "Połaniecka 23",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 183,
+			"address": "Połaniecka 25",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 184,
+			"address": "Połaniecka 3",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 185,
+			"address": "Połaniecka 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 186,
+			"address": "Połaniecka 5 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 187,
+			"address": "Połaniecka 7",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 188,
+			"address": "Połaniecka 9",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 189,
+			"address": "Pow. Warszawy 1",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 190,
+			"address": "Pow. Warszawy 2C",
+			"administrator": "ChSM (Krokus)",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 191,
+			"address": "Pow. Warszawy 3",
+			"administrator": "ChSM ",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 192,
+			"address": "Pow. Warszawy 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 193,
+			"address": "Przemysłowa 1",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 194,
+			"address": "Przemysłowa 26",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 195,
+			"address": "Przemysłowa 26B",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 196,
+			"address": "Przemysłowa 26D, C",
+			"administrator": "CHTBS",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 197,
+			"address": "Przemysłowa 26G ",
+			"administrator": "WM \"Zielone Zacisze\"",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 198,
+			"address": "Przemysłowa 26K",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 199,
+			"address": "Reformacka 30",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 200,
+			"address": "Reformacka 6",
+			"administrator": "ADM 1",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 201,
+			"address": "Rejowiecka 68",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 202,
+			"address": "Rejowiecka 70",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 203,
+			"address": "Rejowiecka 72",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 204,
+			"address": "Reymonta 2",
+			"administrator": "WM Trójkąt",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 205,
+			"address": "Reymonta 3 - 5",
+			"administrator": "WM Reymonta-Slowackiego",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 206,
+			"address": "Rolnicza 24",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 207,
+			"address": "Siedlecka 1 ",
+			"administrator": "SM Centrum",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 208,
+			"address": "Siedlecka 15",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 209,
+			"address": "Siedlecka 2",
+			"administrator": "SM Centrum",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 210,
+			"address": "Sienkiewicza 16A",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 211,
+			"address": "Sienkiewicza 19",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 212,
+			"address": "Sienkiewicza 24",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 213,
+			"address": "Sienkiewicza 5",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 214,
+			"address": "Sienkiewicza 5a",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 215,
+			"address": "Skorupki 3",
+			"administrator": "WM",
+			"metalsSynthetics": 2,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 3
+		},
+		{
+			"id": 216,
+			"address": "Skorupki 5",
+			"administrator": "WM ",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 217,
+			"address": "Słowackiego 19",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 218,
+			"address": "Słowackiego 22",
+			"administrator": "ChSM ",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 219,
+			"address": "Słowackiego 26",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 220,
+			"address": "Słowackiego 3",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 221,
+			"address": "Słowackiego 30",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 222,
+			"address": "Słowackiego 4 - 6",
+			"administrator": "WM Reymonta Słowackiego",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 223,
+			"address": "Słowackiego 9 - 11",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 224,
+			"address": "Stephensona 1 - 3",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 225,
+			"address": "Synów Pułku 11",
+			"administrator": "SM Eskulap",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 226,
+			"address": "Synów Pułku 20",
+			"administrator": "TBS",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 227,
+			"address": "Synów Pułku 22",
+			"administrator": "TBS ",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 228,
+			"address": "Synów Pułku 24",
+			"administrator": "TBS",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 229,
+			"address": "Synów Pułku 26",
+			"administrator": "TBS",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 230,
+			"address": "Synów Pułku 28",
+			"administrator": "TBS",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 231,
+			"address": "Synów Pułku 5",
+			"administrator": "SM Eskulap",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 232,
+			"address": "Synów Pułku 7",
+			"administrator": "SM Eskulap",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 233,
+			"address": "Szarych Szeregów 11",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 234,
+			"address": "Szarych Szeregów 11b",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 235,
+			"address": "Szarych Szeregów 5a",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 236,
+			"address": "Szarych Szeregów 5b",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 237,
+			"address": "Szarych Szeregów 7a",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 238,
+			"address": "Szarych Szeregów 7b",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 239,
+			"address": "Szarych Szeregów 7c",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 240,
+			"address": "Szarych Szeregów 9a",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 241,
+			"address": "Szarych Szeregów 9b",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 242,
+			"address": "Szymanowskiego 11",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 243,
+			"address": "Szymanowskiego 11",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 244,
+			"address": "Szymanowskiego 13",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 245,
+			"address": "Szymanowskiego 15",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 246,
+			"address": "Szymanowskiego 15",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 247,
+			"address": "Szymanowskiego 2",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 248,
+			"address": "Szymanowskiego 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 249,
+			"address": "Szymanowskiego 6",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 250,
+			"address": "Szymanowskiego 8",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 251,
+			"address": "Św.Mikołaja 5",
+			"administrator": "SM Starówka",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 252,
+			"address": "Trubakowska 1",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 253,
+			"address": "Trubakowska 2; 2a; 2b",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 254,
+			"address": "Trubakowska 21",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 255,
+			"address": "Trubakowska 4",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 256,
+			"address": "Trubakowska 53",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 257,
+			"address": "Trubakowska 55",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 258,
+			"address": "Trubakowska 57",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 259,
+			"address": "Wiejska 26",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 260,
+			"address": "Wieniawskiego 1",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 261,
+			"address": "Wieniawskiego 11",
+			"administrator": "ChSM (garaże)",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 262,
+			"address": "Wieniawskiego 13",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 263,
+			"address": "Wieniawskiego 15",
+			"administrator": "ChSM (garaże)",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 264,
+			"address": "Wieniawskiego 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 265,
+			"address": "Wieniawskiego 7",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 266,
+			"address": "Wieniawskiego 9",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 267,
+			"address": "Wiercieńskiego 5",
+			"administrator": "SM Bazylany",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 268,
+			"address": "Wirskiego 10",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 269,
+			"address": "Wirskiego 12",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 270,
+			"address": "Wirskiego 14",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 271,
+			"address": "Wirskiego 16",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 272,
+			"address": "Wirskiego 18",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 273,
+			"address": "Wirskiego 2",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 274,
+			"address": "Wirskiego 20",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 275,
+			"address": "Wirskiego 22",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 276,
+			"address": "Wirskiego 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 277,
+			"address": "Wirskiego 6",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 278,
+			"address": "Wojsławicka 10 ",
+			"administrator": "WM\" Na Skarpie\"",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 279,
+			"address": "Wojsławicka 12",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 280,
+			"address": "Wojsławicka 14",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 281,
+			"address": "Wojsławicka 15 ",
+			"administrator": "WM Na Klinie",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 282,
+			"address": "Wojsławicka 19",
+			"administrator": "WM Na Klinie",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 283,
+			"address": "Wojsławicka 21",
+			"administrator": "SM Odrodzenie",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 284,
+			"address": "Wojsławicka 23",
+			"administrator": "SM Odrodzenie",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 285,
+			"address": "Wojsławicka 8E",
+			"administrator": "Wieliczko",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 286,
+			"address": "Wojsławicka 8F",
+			"administrator": "SM Filar",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 287,
+			"address": "Wolności 1 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 288,
+			"address": "Wolności 10 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 289,
+			"address": "Wolności 11",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 290,
+			"address": "Wolności 12",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 291,
+			"address": "Wolności 13",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": null
+		},
+		{
+			"id": 292,
+			"address": "Wolności 14",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 293,
+			"address": "Wolności 15",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 294,
+			"address": "Wolności 15",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 295,
+			"address": "Wolności 16",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 296,
+			"address": "Wolności 16a",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 297,
+			"address": "Wolności 18",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 298,
+			"address": "Wolności 18a",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 299,
+			"address": "Wolności 2",
+			"administrator": "ChSM",
+			"metalsSynthetics": 2,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 300,
+			"address": "Wolności 22",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 301,
+			"address": "Wolności 25",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 302,
+			"address": "Wolności 27",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 303,
+			"address": "Wolności 29",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 304,
+			"address": "Wolności 3",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 305,
+			"address": "Wolności 31",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 306,
+			"address": "Wolności 33",
+			"administrator": "CHSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 307,
+			"address": "Wolności 35 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 308,
+			"address": "Wolności 39",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 309,
+			"address": "Wolności 4",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 310,
+			"address": "Wolności 41",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 311,
+			"address": "Wolności 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 312,
+			"address": "Wolności 6",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 2
+		},
+		{
+			"id": 313,
+			"address": "Wolności 9",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 314,
+			"address": "Wołyńska 13",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 315,
+			"address": "Wołyńska 16a",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 316,
+			"address": "Wołyńska 18",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 317,
+			"address": "Wołyńska 18a",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 318,
+			"address": "Wołyńska 3",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 319,
+			"address": "Wołyńska 5",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 320,
+			"address": "Wołyńska 61",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 321,
+			"address": "Wołyńska 63",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 322,
+			"address": "Wołyńska 65A",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 323,
+			"address": "Zachodnia 11",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 324,
+			"address": "Zachodnia 13",
+			"administrator": "WM  Zachodnia 13",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 325,
+			"address": "Zachodnia 15 - 17",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 326,
+			"address": "Zachodnia 19 ",
+			"administrator": "ChSM (Stokrotka)",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 327,
+			"address": "Zachodnia 21 ",
+			"administrator": "ChSM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 328,
+			"address": "Zachodnia 25",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 329,
+			"address": "Zachodnia 27",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 330,
+			"address": "Zachodnia 29",
+			"administrator": "WM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 331,
+			"address": "Zachodnia 33 ",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 332,
+			"address": "Zachodnia 35",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 333,
+			"address": "Zachodnia 37",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 334,
+			"address": "Zachodnia 37",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 335,
+			"address": "Zachodnia 39",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 336,
+			"address": "Zachodnia 41",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 337,
+			"address": "Zachodnia 43",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 338,
+			"address": "Zachodnia 47",
+			"administrator": "SM Gwarek",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 339,
+			"address": "Zachodnia 7",
+			"administrator": "WM Siódemka",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 340,
+			"address": "Zachodnia 7",
+			"administrator": "WM Zachodnia 7 WAM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 341,
+			"address": "Zachodnia 9",
+			"administrator": "WM Zachodnia 9",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		},
+		{
+			"id": 342,
+			"address": "Żeromskiego 13",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 343,
+			"address": "Żwirki i Wigury 10 - 16 ",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": null,
+			"paper": null,
+			"bio": null,
+			"mixed": 1
+		},
+		{
+			"id": 344,
+			"address": "Żwirki i Wigury 4",
+			"administrator": "PUM",
+			"metalsSynthetics": 1,
+			"glass": 1,
+			"paper": 1,
+			"bio": 1,
+			"mixed": 1
+		}
+	]
+}
