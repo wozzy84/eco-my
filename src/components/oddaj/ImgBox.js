@@ -3,11 +3,14 @@ import {Img, ImgTick} from './styles';
 import { H3} from '../atoms/styles';
 import tick from '../../styles/assets/img/ptaszek-02.png'
 
-const ImgBox = ({face, name}) => {
+const ImgBox = ({face, name, clicked}) => {
     const [active, setActive] = useState(false);
     return (
         <>
-                <Img onClick={()=> setActive(!active)} >
+                <Img onClick={()=> {
+                    setActive(!active);
+                    clicked();
+                }} >
                     <img alt={name} src={face}/>
                     {active && <ImgTick alt='tick' src={tick}/>}
 

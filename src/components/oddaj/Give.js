@@ -11,6 +11,7 @@ import teddyBearPhoto from '../../styles/assets/img/categories/teddy-bear.jpg';
 import GiveMap from "./GiveMap";
 const Give= () => {
     const [active, setActive] = useState(false);
+    const [photo, setPhoto] = useState(null);
     const photos = [
         {
             url: medsPhoto,
@@ -53,6 +54,7 @@ const Give= () => {
                         <ImgBoxContainer>
                             {photos.map((photo, index) => (
                                 <ImgBox
+                                    clicked={() => setPhoto(photo)}
                                     key={index}
                                     face={photo.url}
                                     name={photo.name}
@@ -67,8 +69,7 @@ const Give= () => {
 
 
             </GiveContainer>;
-            {active && <GiveMap id='map'/>}
-
+            {active && photo && <GiveMap type={photo.type} id='map'/>}
         </>
         )
 
