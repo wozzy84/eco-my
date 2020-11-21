@@ -1,9 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Img, ImgTick} from './styles';
 import { H3} from '../atoms/styles';
 import tick from '../../styles/assets/img/leaf-green.png'
 
 const ImgBox = ({face, name}) => {
+    const [isOpen, setTrigger] = useState(false);
     return (
         <>
                 <Img >
