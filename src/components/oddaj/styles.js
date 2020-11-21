@@ -72,3 +72,15 @@ export const Button = styled.button`
     background-color: #4fc663;
   }
 `;
+
+export const MapContainer = styled.div`
+width:100%;
+`
+
+export const Map = styled.div`
+width:50%;
+`
+
+export const ListPlaces = styled.ul`
+width:50%;
+`

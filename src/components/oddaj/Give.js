@@ -47,7 +47,7 @@ const Give= () => {
                             ))}
                         </ImgBoxContainer>
                 </Items>
-                <Button>Znajdz</Button>
+                <Button>Wyszukaj</Button>
 
             </GiveContainer>;
         </>
