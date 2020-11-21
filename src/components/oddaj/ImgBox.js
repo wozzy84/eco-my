@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Img, ImgTick} from './styles';
 import { H3} from '../atoms/styles';
-import tick from '../../styles/assets/img/leaf-green.png'
+import tick from '../../styles/assets/img/ptaszek-02.png'
 
 const ImgBox = ({face, name}) => {
     const [active, setActive] = useState(false);
@@ -11,7 +11,7 @@ const ImgBox = ({face, name}) => {
                     <img alt={name} src={face}/>
                     {active && <ImgTick alt='tick' src={tick}/>}
 
-                    <H3>
+                    <H3 isSpecialFont>
                         {name}
                     </H3>
 

@@ -38,7 +38,7 @@ width: 30%;
 position: relative;
 
  img {
-   width: 50%;
+   width: 60%;
     @media (max-width: 360px) {
       width: 30%;
  
@@ -62,7 +62,7 @@ export const Button = styled.button`
   margin-top: 100px;
   width: 200px;
   padding: 15px 10px;
-  background-color: #319842;
+  background-color: #4b9382;
   color: #fff;
   border-radius: 2em;
   font-size: 16px;
