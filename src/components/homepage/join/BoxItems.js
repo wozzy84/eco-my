@@ -1,5 +1,5 @@
 import React from 'react';
-import {H3} from '../atoms/styles';
+import {H3} from '../../atoms/styles';
 import {Img, Text, TextBox, Button} from './styles';
 
 const BoxItems = ({title, text, btnText, img}) => {

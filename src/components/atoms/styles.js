@@ -1,5 +1,5 @@
 import styled, {createGlobalStyle} from 'styled-components';
-import '../../../styles/assets/fonts/fonts.css'
+import '../../styles/assets/fonts/fonts.css'
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -47,6 +47,20 @@ export const H1 = styled.h1`
   margin-top: 200px;
   display: block;
   width: 30%;
+
+  @media (max-width: 360px) {
+    font-size: 32px;
+  }
+`;
+
+export const HonPage = styled.h1`
+ 
+  font-size: 68px;
+  color: #4b9382;
+  font-family: 'Mali', cursive;
+  font-weight: 700;
+  margin-top: 20px;
+  display: block;
 
   @media (max-width: 360px) {
     font-size: 32px;

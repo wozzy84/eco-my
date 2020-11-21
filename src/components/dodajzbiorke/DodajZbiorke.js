@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { Button, Container, Row, Form } from "react-bootstrap";
 import FormDodaj from "./FormDodaj";
+import FormCel from "./FormCel";
 import { Formik } from "formik";
+import FormTagi from "./FormTagi";
+import FormOdbiorca from "./FormOdiobrca";
+import FormEvent from "./FormEvent";
 
 const DodajZbiorke = () => {
   const [formStep, setFormStep] = useState(1);
@@ -26,12 +30,25 @@ const DodajZbiorke = () => {
       zlom: false,
       metal: false,
     },
+    cel: {
+      cel: "",
+    },
+    tag: "",
+    tagArr: [],
   };
 
   const getCurrentForm = (step, form) => {
     switch (step) {
       case 1:
         return <FormDodaj form={form} values={form.values} />;
+      case 2:
+        return <FormCel form={form} values={form.values} />;
+      case 3:
+        return <FormTagi form={form} values={form.values} />;
+      case 4:
+        return <FormOdbiorca form={form} values={form.values} />;
+      case 5:
+        return <FormEvent form={form} values={form.values} />;
       default:
         return null;
     }

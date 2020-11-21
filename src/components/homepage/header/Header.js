@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-import * as Scroll from "react-scroll";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React from "react";
+import { Link } from "react-router-dom";
 import logo from "./../../../styles/assets/img/logo-ecomy-1.png";
-import history from "../../../browserHistory";
 import {
   HeaderContainer,
   HeaderFixed,
@@ -29,23 +27,17 @@ const Header = () => {
             </ListItem>
             <ListItem>
               <Title>
-                <Link>Oddaj</Link>
+                <Link to="/oddaj">Oddaj</Link>
               </Title>
             </ListItem>
             <ListItem>
               <Title>
-                <Link>Znajdź</Link>
+                <Link to="/znajdz">Znajdź</Link>
               </Title>
             </ListItem>
             <ListItem>
               <Title>
-                <Link
-                  onClick={() => {
-                    history.push("/dodaj-zbiorke");
-                  }}
-                >
-                  Zorganizuj
-                </Link>
+                <Link to="/dodaj-zbiorke">Zorganizuj</Link>
               </Title>
             </ListItem>
           </List>
