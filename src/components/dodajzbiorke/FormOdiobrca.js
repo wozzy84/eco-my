@@ -4,9 +4,10 @@ import { Form } from "react-bootstrap";
 const FormOdbiorca = ({ form }) => {
   return (
     <>
-      <Form.Label>Wskaź odbiorcę </Form.Label>
+      <Form.Label className="form__cat-title">Wskaź odbiorcę </Form.Label>
       <Form.Control
         name="odbiorca"
+        className="form_text-input"
         value={form.values.odbiorca}
         onChange={(e) => form.setFieldValue("odbiorca", e.target.value)}
         as="select"

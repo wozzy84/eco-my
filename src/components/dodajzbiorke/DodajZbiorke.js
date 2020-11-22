@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Container, Row, Form } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import FormDodaj from "./FormDodaj";
 import FormCel from "./FormCel";
 import { Formik } from "formik";
@@ -8,6 +8,9 @@ import FormOdbiorca from "./FormOdiobrca";
 import FormEvent from "./FormEvent";
 import FormDetails from "./FormDetails";
 import FormSummary from "./FormSummary";
+import FormSubmitted from "./FormSubmitted";
+import Header from "../homepage/header/Header";
+import Footer from "../homepage/footer/Footer";
 
 const DodajZbiorke = () => {
   const [formStep, setFormStep] = useState(1);
@@ -64,26 +67,35 @@ const DodajZbiorke = () => {
         return <FormDetails form={form} values={form.values} />;
       case 7:
         return <FormSummary form={form} values={form.values} />;
+      case 8:
+        return <FormSubmitted values={form.values} />;
       default:
         return null;
     }
   };
 
   return (
-    <Container>
-      <h2>Dodaj Zbiórkę</h2>
-      <p>Krok {formStep} z 4</p>
-      <Formik
-        initialValues={initialValues}
-        validateOnBlur={true}
-        enableReinitialize
-        onSubmit={() => null}
-      >
-        {(form) => getCurrentForm(formStep, form)}
-      </Formik>
-      <Button onClick={handlePrev}>Cofnij</Button>
-      <Button onClick={handleNext}>Dalej</Button>
-    </Container>
+    <>
+      <Header />
+      <Container className="form__container">
+        <h2 className="form__cat-title">Dodaj Zbiórkę</h2>
+        <p className="form__cat-title">Krok {formStep} z 8</p>
+        <Formik
+          initialValues={initialValues}
+          validateOnBlur={true}
+          enableReinitialize
+          onSubmit={() => null}
+        >
+          {(form) => getCurrentForm(formStep, form)}
+        </Formik>
+        <Button className="form__button" onClick={handlePrev}>
+          Cofnij
+        </Button>
+        <Button className="form__button" onClick={handleNext}>
+          Dalej
+        </Button>
+      </Container>
+    </>
   );
 };
 

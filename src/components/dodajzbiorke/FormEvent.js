@@ -5,8 +5,9 @@ const FormEvent = ({ form, values }) => {
   return (
     <>
       <Form.Group>
-        <Form.Label>Nazwa zbórki</Form.Label>
+        <Form.Label className="form__cat-title">Nazwa zbórki</Form.Label>
         <Form.Control
+          className="form_text-input"
           value={form.values.name}
           name="name"
           type="text"
@@ -15,8 +16,9 @@ const FormEvent = ({ form, values }) => {
         />
       </Form.Group>
       <Form.Group controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Opis Wydarzenia</Form.Label>
+        <Form.Label className="form__cat-title">Opis Wydarzenia</Form.Label>
         <Form.Control
+          className="form_text-input"
           name="opis"
           value={form.values.opis}
           onChange={form.handleChange}

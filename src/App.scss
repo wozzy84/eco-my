@@ -30,3 +30,49 @@
     transform: rotate(360deg);
   }
 }
+
+.form__container {
+  background-color: #f5f5f3;
+
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.form__cat-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.open-hours {
+  margin-bottom: 0px;
+}
+
+.hour-picker {
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.form__button {
+  margin: 20px 20px 20px 0px;
+  width: 120px;
+}
+
+.form_text-input {
+  max-width: 350px;
+}
+
+.tag-container {
+  display: flex !important;
+}
+
+.pill-contnainer {
+  background-color: white;
+  border-radius: 10px;
+  height: 150px;
+  max-width: 415px;
+  margin: 20px 20px 20px 0px;
+  padding: 20px;
+}
+.pill {
+  margin: 5px;
+}

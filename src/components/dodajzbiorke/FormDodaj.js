@@ -4,7 +4,7 @@ const FormDodaj = ({ form }) => {
   console.log(form.values);
   return (
     <>
-      <Form.Label>Co chesz zbierać? </Form.Label>
+      <Form.Label className="form__cat-title">Co chesz zbierać? </Form.Label>
       <Form.Check
         value={form.values.coZbieram.nakretki}
         id="nakretki"

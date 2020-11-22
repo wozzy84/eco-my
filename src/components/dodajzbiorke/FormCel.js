@@ -14,8 +14,9 @@ const FormCel = ({ form }) => {
   return (
     <>
       <>
-        <Form.Label>Określ Cel zbórki </Form.Label>
+        <Form.Label className="form__cat-title">Określ Cel zbórki </Form.Label>
         <Form.Control
+          className="form_text-input"
           name="cel.cel"
           value={form.values.cel.cel}
           onChange={(e) => form.setFieldValue("cel.cel", e.target.value)}
