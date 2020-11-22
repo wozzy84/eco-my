@@ -36,7 +36,7 @@ const AboutApp = () => {
         <ImgCloud data-aos="fade-up" src={imgSmall} />
         <ImgCloudText data-aos="fade-up">
           <Span isBig isWhite>
-            ecoMy{" "}
+            ecoMY{" "}
           </Span>
           <Span isBig >
             pomoże Ci{" "}
