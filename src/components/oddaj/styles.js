@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const GiveContainer = styled.div`
 margin: 0 auto;
   width: 75%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   @media (max-width: 360px) {

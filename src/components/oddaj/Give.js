@@ -2,12 +2,11 @@ import React, {useState} from "react";
 import {HonPage} from '../atoms/styles';
 import {GiveContainer, Items, ImgBoxContainer, Button, Img} from './styles';
 import ImgBox from "./ImgBox";
-import {Link, animateScroll as scroll} from 'react-scroll';
-import medsPhoto from '../../../src/styles/assets/img/categories/medicine.jpg';
-import clothesPhoto from '../../../src/styles/assets/img/categories/fashion.png';
-import plasticPhoto from '../../../src/styles/assets/img/categories/plastic-bottle-caps.jpg';
-import batteriesPhoto from '../../styles/assets/img/categories/batteries.jpg';
-import teddyBearPhoto from '../../styles/assets/img/categories/teddy-bear.jpg';
+import medsPhoto from '../../../src/styles/assets/img/categories/leki-01.png';
+import clothesPhoto from '../../../src/styles/assets/img/categories/odziez-01.png';
+import plasticPhoto from '../../../src/styles/assets/img/categories/plastik-01.png';
+import batteriesPhoto from '../../styles/assets/img/categories/baterie-01.png';
+import teddyBearPhoto from '../../styles/assets/img/categories/zabawki-01.png';
 import GiveMap from "./GiveMap";
 const Give= () => {
     // const [active, setActive] = useState(false);
@@ -63,14 +62,7 @@ const Give= () => {
                             ))}
                         </ImgBoxContainer>
                 </Items>
-                {/*<Link to='map' activeClass='active' spy={true} smooth={true} duration={500}>*/}
-                {/*    <Button onClick={()=> {*/}
-                {/*      setActive(!active);*/}
-                {/*      // if (!active) {*/}
-                {/*      //   setPhoto(null);*/}
-                {/*      // }*/}
-                {/*    }}>*/}
-                {/*    Wyszukaj </Button></Link>*/}
+
             </GiveContainer>;
             <GiveMap types={types} id='map'/>
         </>

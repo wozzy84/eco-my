@@ -35,17 +35,23 @@ const AboutApp = () => {
         <ImgMain data-aos="fade-up" src={imgBig} />
         <ImgCloud data-aos="fade-up" src={imgSmall} />
         <ImgCloudText data-aos="fade-up">
-          <Span isBlock isBig>
-            Mamy na to sposób.{" "}
+          <Span isBig isWhite>
+            ecoMy{" "}
           </Span>
-          <Span isBlock isWhite isBold isBig>
-            Aplikacja EcoMy{" "}
-          </Span>
-          <Span isBig isBlock>
-            pokaże Ci, jak segregować{" "}
+          <Span isBig >
+            pomoże Ci{" "}
           </Span>
           <Span isBig isBlock>
-            i... oszczędzić. Jak?{" "}
+            ekologicznie zarządzać {" "}
+          </Span>
+          <Span isBig isBlock>
+           Twoimi śmieciami, a przy{" "}
+          </Span>
+          <Span isBig isBlock>
+           okazji pomagać innym i{" "}
+          </Span>
+          <Span isBig isBlock>
+            Planecie{" "}
           </Span>
         </ImgCloudText>
       </AppContainer>
@@ -91,8 +97,7 @@ const AboutApp = () => {
           <ImgText>
             <SpanContainer>
               <Span isWhite>
-                Nakrętki, puszki czy ubrania wreszcie znajdą odpowiednie miejsce
-                czy nowego właściciela
+                Zaangażuj się i zaproś innych do oddawania odpadów, razem działamy na rzecz naszego miasta i lokalnej społeczności.
               </Span>
             </SpanContainer>
           </ImgText>

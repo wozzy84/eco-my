@@ -27,11 +27,11 @@ const Map = ({types}) => {
     {(hasType('electro')) && renderMarkers(wasteData.places, 'waste', setSelectedPlace)}
     {/*{(hasType('electro')) && renderMarkers(realEstateData.places, 'glass', setSelectedPlace)}*/}
 
-    {/*{(type === 'clothes' || type === 'toys' || type === 'caps') && renderMarkers(collectsData.places, 'charity', setSelectedPlace)}*/}
-    {/*{(type === 'meds') && renderMarkers(expiredDrugsData.places, 'pharmacy', setSelectedPlace)}*/}
-    {/*{(type === 'batteries') && renderMarkers(batteriesData.places, 'battery', setSelectedPlace)}*/}
-    {/*{(type === 'electro') && renderMarkers(wasteData.places, 'waste', setSelectedPlace)}*/}
-    {/*{(type === 'electro') && renderMarkers(realEstateData.places, 'glass', setSelectedPlace)}*/}
+    { !types && renderMarkers(collectsData.places, 'charity', setSelectedPlace) }
+    { !types && renderMarkers(expiredDrugsData.places, 'pharmacy', setSelectedPlace)}
+    { !types && renderMarkers(batteriesData.places, 'battery', setSelectedPlace)}
+    { !types && renderMarkers(wasteData.places, 'waste', setSelectedPlace)}
+    { !types && renderMarkers(realEstateData.places, 'glass', setSelectedPlace)}
 
     {selectedPlace && (
       <InfoWindow
