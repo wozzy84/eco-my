@@ -49,7 +49,7 @@ const Give = () => {
     <>
       <Header />
       <GiveContainer>
-        <H3 isWhite>Chcę oddać</H3>
+        <H3>Chcę oddać</H3>
         <Items>
           <ImgBoxContainer>
             {photos.map((photo, index) => (
