@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
 export const GiveContainer = styled.div`
+
+max-width:1600px;
 margin: 0 auto;
   width: 75%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
   @media (max-width: 360px) {
     flex-wrap: wrap;
   }

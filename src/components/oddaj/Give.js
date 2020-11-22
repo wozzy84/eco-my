@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {HonPage} from '../atoms/styles';
+import {H3} from '../atoms/styles';
 import {GiveContainer, Items, ImgBoxContainer, Button, Img} from './styles';
 import ImgBox from "./ImgBox";
 import medsPhoto from '../../../src/styles/assets/img/categories/leki-01.png';
@@ -47,7 +47,7 @@ const Give= () => {
     return (
         <>
             <GiveContainer>
-                <HonPage>Chcę oddać</HonPage>
+                <H3 isWhite>Chcę oddać</H3>
                 <Items>
                         <ImgBoxContainer>
                             {photos.map((photo, index) => (
