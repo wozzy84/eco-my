@@ -15,9 +15,8 @@ Aplikacja w developmend mode jest  dostępna na porcie 3000 w przeglądarce uży
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-
 W celu zainstalowania dependencji zaleca się skorzystanie z menadżera pakietów npm
-### `npm i
+### npm i
 
 ### doployment 
 
