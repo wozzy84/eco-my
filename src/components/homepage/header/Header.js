@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./../../../styles/assets/img/logo-ecomy-1.png";
+import history from "../../../";
 import {
   HeaderContainer,
   HeaderFixed,
@@ -16,13 +17,15 @@ const Header = () => {
     <HeaderContainer>
       <HeaderFixed>
         <Logo>
-          <img src={logo} alt="" />
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </Logo>
         <Navigation>
           <List>
             <ListItem>
               <Title>
-                <Link>O aplikacji</Link>
+                <Link to="/">O aplikacji</Link>
               </Title>
             </ListItem>
             <ListItem>
