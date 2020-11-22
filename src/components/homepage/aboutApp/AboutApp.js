@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   AboutAppContainer,
   AppContainer,
@@ -13,9 +14,11 @@ import {
   ImgCloudText,
 } from "./styles";
 import { Span, SpanContainer, H3 } from "../../atoms/styles";
-import imgBig from "../../../styles/assets/img/app-main.png";
-import imgSmall from "../../../styles/assets/img/cloud.png";
-import mobileFirst from "../../../styles/assets/img/scan-view.png";
+import imgBig from "../../../styles/assets/img/app-main-min.png";
+import imgSmall from "../../../styles/assets/img/cloud-min.png";
+import mobileMap from "../../../styles/assets/img/app-view1.png";
+import mobileOrganize from "../../../styles/assets/img/app-view-organize.png";
+import mobileScan from "../../../styles/assets/img/scan-view-min.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -48,11 +51,17 @@ const AboutApp = () => {
       </AppContainer>
       <AboutAppContainer>
         <ImgContainer data-aos="fade-up">
+          <Link to="/oddaj">
           <H3 isSpecialFont isWhite isSmall isBold>
             Znajdź miejsce dla swoich śmieci
           </H3>
+          </Link>
+
           <ImgBox>
-            <Img1 src={mobileFirst} alt="" />
+            <Link to="/oddaj">
+
+            <Img1 src={mobileMap} alt="" />
+            </Link>
           </ImgBox>
           <ImgText>
             <SpanContainer>
@@ -64,13 +73,20 @@ const AboutApp = () => {
               </Span>
             </SpanContainer>
           </ImgText>
+
         </ImgContainer>
         <ImgContainer data-aos="fade-up">
+          <Link to="/dodaj-zbiorke">
+
+          <H3 isSpecialFont isWhite isSmall isBold>
+            Zorganizuj zbiórkę
+          </H3>
+          </Link>
           <ImgBox>
-            <H3 isSpecialFont isWhite isSmall isBold>
-              Zorganizuj zbiórkę
-            </H3>
-            <Img2 src={mobileFirst} alt="" />
+            <Link to="/dodaj-zbiorke">
+
+            <Img2 src={mobileOrganize} alt="" />
+            </Link>
           </ImgBox>
           <ImgText>
             <SpanContainer>
@@ -86,7 +102,8 @@ const AboutApp = () => {
             Sprawdź jak poprawnie segregować
           </H3>
           <ImgBox>
-            <Img3 src={mobileFirst} alt="" />
+
+            <Img3 src={mobileScan} alt="" />
           </ImgBox>
           <ImgText>
             <SpanContainer>

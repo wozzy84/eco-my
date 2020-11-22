@@ -19,7 +19,7 @@ export const TextBox = styled.div`
   display: flex;
   flex-direction: column;
   align-self: center;
-  align-content: center;
+  align-items: center;
   @media (max-width: 360px) {
     width: 90%;
   }
@@ -51,7 +51,7 @@ export const Button = styled.button`
   margin-top: 20px;
   width: 200px;
   padding: 15px 10px;
-  background-color: #319842;
+ background-color: #4b9382;
   color: #fff;
   border-radius: 2em;
   font-size: 16px;

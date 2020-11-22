@@ -10,8 +10,8 @@ import batteriesPhoto from '../../styles/assets/img/categories/batteries.jpg';
 import teddyBearPhoto from '../../styles/assets/img/categories/teddy-bear.jpg';
 import GiveMap from "./GiveMap";
 const Give= () => {
-    const [active, setActive] = useState(false);
-    const [photo, setPhoto] = useState(null);
+    // const [active, setActive] = useState(false);
+    const [types, setTypes] = useState([]);
     const photos = [
         {
             url: medsPhoto,
@@ -36,14 +36,13 @@ const Give= () => {
         {
             url: batteriesPhoto,
             name: 'baterie',
-            type: 'meds'
+            type: 'batteries'
         },
         {
             url: teddyBearPhoto,
             name: 'zabawki',
             type: 'toys'
         },
-
     ];
 
     return (
@@ -54,7 +53,9 @@ const Give= () => {
                         <ImgBoxContainer>
                             {photos.map((photo, index) => (
                                 <ImgBox
-                                    clicked={() => setPhoto(photo)}
+                                    clicked={(active) => {
+                                      setTypes(active ? [...types, photo.type].slice(0) : types.filter(t => t !== photo.type).slice(0))
+                                    }}
                                     key={index}
                                     face={photo.url}
                                     name={photo.name}
@@ -62,17 +63,18 @@ const Give= () => {
                             ))}
                         </ImgBoxContainer>
                 </Items>
-                <Link to='map' activeClass='active' spy={true} smooth={true} duration={500}>
-                    <Button onClick={()=> setActive(!active)}>
-                        Wyszukaj </Button></Link>
-
-
-
+                {/*<Link to='map' activeClass='active' spy={true} smooth={true} duration={500}>*/}
+                {/*    <Button onClick={()=> {*/}
+                {/*      setActive(!active);*/}
+                {/*      // if (!active) {*/}
+                {/*      //   setPhoto(null);*/}
+                {/*      // }*/}
+                {/*    }}>*/}
+                {/*    Wyszukaj </Button></Link>*/}
             </GiveContainer>;
-            {active && photo && <GiveMap type={photo.type} id='map'/>}
+            <GiveMap types={types} id='map'/>
         </>
         )
-
 };
 
 export default Give;

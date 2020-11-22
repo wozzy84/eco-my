@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import img from '../../../../src/styles/assets/img/city-wroclove-gray.jpg';
-import leafImg from '../../../styles/assets/img/leaf-white.png';
+import img from '../../../../src/styles/assets/img/city-wroclove-gray-min.jpg';
+import leafImg from '../../../styles/assets/img/leaf-white-min.png';
 
 export const AdvantagesContainer = styled.div`
   width: 100%;
