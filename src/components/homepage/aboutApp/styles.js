@@ -32,10 +32,17 @@ export const ImgCloud = styled.img`
 
 export const ImgCloudText = styled.div`
   width: 50%;
-  font-size: 20px;
   position: absolute;
-  top: 40%;
-  left: 50%;
+  top: 35%;
+  left: 49%;
+ 
+  @media (max-width: 560px) {
+   font-size: 18px;
+  }
+\`;
+  @media (max-width: 360px) {
+   font-size: 16px;
+  }
 `;
 
 export const ImgContainer = styled.div`

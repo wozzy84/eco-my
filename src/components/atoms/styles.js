@@ -21,12 +21,10 @@ margin: 0 auto;
   }
   
 `;
-export const Container = styled.div``;
-
 export const Span = styled.span`
   font-weight: ${({isBold}) => (isBold ? '700' : '400')};
   line-height: 24px;
- font-size: ${({isBig}) => (isBig ? '22px' : '16px')};
+ font-size: ${({isBig}) => (isBig ? '18px' : '16px')};
   display: ${({isBlock}) => (isBlock ? 'block' : 'inline')};
   text-align: left;
   display: ${({isBlock}) => (isBlock ? 'block' : 'inline')};
