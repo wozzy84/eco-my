@@ -126,7 +126,7 @@ const GiveMap = ({types}) => {
   return (
     <>
       <GiveContainer>
-        <H3 isWhite>Zbiórki w Twojej okolicy</H3>
+        <H3>Zbiórki w Twojej okolicy</H3>
         <MapContainer>
           <Find types={types} />
 
