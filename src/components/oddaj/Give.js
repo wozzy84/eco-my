@@ -3,6 +3,7 @@ import {H3} from '../atoms/styles';
 import {GiveContainer, Items, ImgBoxContainer, Button, Img} from './styles';
 import ImgBox from "./ImgBox";
 import medsPhoto from '../../../src/styles/assets/img/categories/leki-01.png';
+import electtroPhoto from '../../../src/styles/assets/img/categories/elektro-01.png';
 import clothesPhoto from '../../../src/styles/assets/img/categories/odziez-01.png';
 import plasticPhoto from '../../../src/styles/assets/img/categories/plastik-01.png';
 import batteriesPhoto from '../../styles/assets/img/categories/baterie-01.png';
@@ -13,7 +14,7 @@ const Give= () => {
     const [types, setTypes] = useState([]);
     const photos = [
         {
-            url: medsPhoto,
+            url: electtroPhoto,
             name: 'elektrośmieci',
             type: 'electro'
         },
