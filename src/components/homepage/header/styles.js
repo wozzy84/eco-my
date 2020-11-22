@@ -13,8 +13,7 @@ export const HeaderFixed = styled.header`
   height: 80px;
   width: 100%;
   display: flex;
-
-  position: fixed;
+  //position: fixed;
   top: 0;
   background-color: #f5f5f3;
 

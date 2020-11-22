@@ -8,22 +8,30 @@ import * as wasteData from '../../data/waste_collecting_places.json';
 import * as realEstateData from '../../data/real_estate.json';
 
 const mapCenter = {lat: 51.131271, lng: 23.4745222}; // Chełm city
-// const googleMapsApiKey = 'AIzaSyDCYlmvsutOI1lUyi7gPJQlMEXqwTsdZQE';
-const googleMapsApiKey = process.env.REACT_APP_GOOGLE_KEY;
+const googleMapsApiKey = 'AIzaSyDCYlmvsutOI1lUyi7gPJQlMEXqwTsdZQE';
+// const googleMapsApiKey = process.env.REACT_APP_GOOGLE_KEY;
 const googleMapURL = `https://maps.googleapis.com/maps/api/js?&key=${googleMapsApiKey}`;
 
-const Map = () => {
+const Map = ({types}) => {
   const [selectedPlace, setSelectedPlace] = useState(null);
+
+  const hasType = (type) => types && types.indexOf(type) > -1;
 
   return <GoogleMap
     defaultZoom={14}
     defaultCenter={mapCenter}
   >
-    {renderMarkers(collectsData.places, 'charity', setSelectedPlace)}
-    {renderMarkers(expiredDrugsData.places, 'pharmacy', setSelectedPlace)}
-    {renderMarkers(batteriesData.places, 'battery', setSelectedPlace)}
-    {renderMarkers(wasteData.places, 'waste', setSelectedPlace)}
-    {renderMarkers(realEstateData.places, 'glass', setSelectedPlace)}
+    {(hasType('clothes') || hasType('toys') || hasType('caps')) && renderMarkers(collectsData.places, 'charity', setSelectedPlace)}
+    {(hasType('meds')) && renderMarkers(expiredDrugsData.places, 'pharmacy', setSelectedPlace)}
+    {(hasType('batteries')) && renderMarkers(batteriesData.places, 'battery', setSelectedPlace)}
+    {(hasType('electro')) && renderMarkers(wasteData.places, 'waste', setSelectedPlace)}
+    {/*{(hasType('electro')) && renderMarkers(realEstateData.places, 'glass', setSelectedPlace)}*/}
+
+    {/*{(type === 'clothes' || type === 'toys' || type === 'caps') && renderMarkers(collectsData.places, 'charity', setSelectedPlace)}*/}
+    {/*{(type === 'meds') && renderMarkers(expiredDrugsData.places, 'pharmacy', setSelectedPlace)}*/}
+    {/*{(type === 'batteries') && renderMarkers(batteriesData.places, 'battery', setSelectedPlace)}*/}
+    {/*{(type === 'electro') && renderMarkers(wasteData.places, 'waste', setSelectedPlace)}*/}
+    {/*{(type === 'electro') && renderMarkers(realEstateData.places, 'glass', setSelectedPlace)}*/}
 
     {selectedPlace && (
       <InfoWindow
@@ -65,13 +73,14 @@ const generateKey = () => Math.random().toString(36).substring(7);
 
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
-const Find = () => {
+const Find = ({types}) => {
   return <div style={{width: '100%', height: '100vh'}}>
     <WrappedMap
       googleMapURL={googleMapURL}
       loadingElement={<div style={{height: '100%'}}/>}
       containerElement={<div style={{height: '100%'}}/>}
       mapElement={<div style={{height: '100%'}}/>}
+      types={types}
     />
   </div>;
 };

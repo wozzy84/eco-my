@@ -13,7 +13,7 @@ const Banner = () => {
         <>
             <BannerContainer>
                 <BannerImg>
-                    <H1 data-aos='fade-right'>Nie wyrzucaj pieniędzy na śmieci!</H1>
+                    <H1 data-aos='fade-right'>Zamień śmieci na korzyści</H1>
                     <Img src={img} data-aos='fade-right'/>
                 </BannerImg>
             </BannerContainer>

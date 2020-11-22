@@ -44,6 +44,9 @@ export const ImgContainer = styled.div`
   justify-content: space-around;
   padding-bottom: 5%;
   flex-direction: column;
+  a {
+  text-decoration: none;
+  }
   @media (max-width: 360px) {
     font-size: 12px;
   }
@@ -53,12 +56,21 @@ export const ImgBox = styled.div``;
 
 export const Img1 = styled.img`
   width: 220px;
+  :hover {
+  cursor: pointer;
+  }
 `;
 export const Img2 = styled.img`
   width: 220px;
+    :hover {
+  cursor: pointer;
+  }
 `;
 export const Img3 = styled.img`
   width: 220px;
+    :hover {
+  cursor: pointer;
+  }
 `;
 
 export const ImgText = styled.div`
