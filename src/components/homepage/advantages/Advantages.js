@@ -31,16 +31,12 @@ const Advantages = () => {
                             <ListItems>
                                 <List>
                                     <Span isShort isBlock isWhite>
-                                        Segregacja śmieci nie sprawi Ci już żadnej trudności.
-                                        Wystarczy, że zeskanujesz kod kreskowy lub zrobisz zdjęcie
-                                        produktu, a aplikacja pokaże Ci, do jakiego kosza powinien
-                                        trafić{' '}
+                                        Segregacja śmieci nie sprawi Ci już żadnej trudności. ecoMY pomoże znaleźć Ci miejsca,  zbiórki i sposoby, gdzie możesz to zrobić.{' '}
                                     </Span>
                                 </List>
                                 <List>
                                     <Span isShort isBlock isWhite>
-                                        Łączysz przyjemne z pożytecznym - Dbasz o środowisko, a
-                                        jednocześnie zdobywasz zniżki na wybrane produkty.
+                                        Łączysz przyjemne z pożytecznym - Dbasz o środowisko, a jednocześnie pomagasz innym i planecie.
                                     </Span>
                                 </List>
                                 <List>
@@ -62,9 +58,7 @@ const Advantages = () => {
                             <ListItems>
                                 <List>
                                     <Span isShort isBlock isWhite>
-                                        Poprawnie posortowane śmieci to wymierne korzyści finansowe.
-                                        Za wywóz śmieci zmieszanych płacisz najwięcej. Warto więc
-                                        zadbać, aby mieszkańcy Twojej gminy segregowali poprawnie
+                                        Poprawnie posortowane śmieci to wymierne korzyści finansowe i zgodność z wymogami unijnymi. Warto więc zadbać, aby mieszkańcy Twojej gminy segregowali poprawnie.
                                     </Span>
                                 </List>
                             </ListItems>
