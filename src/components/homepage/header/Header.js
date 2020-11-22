@@ -25,7 +25,7 @@ const Header = () => {
           <List>
             <ListItem>
               <Title>
-                <Link>O aplikacji</Link>
+                <Link to="/">O aplikacji</Link>
               </Title>
             </ListItem>
             <ListItem>

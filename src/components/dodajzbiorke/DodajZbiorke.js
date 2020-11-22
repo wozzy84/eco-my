@@ -10,7 +10,6 @@ import FormDetails from "./FormDetails";
 import FormSummary from "./FormSummary";
 import FormSubmitted from "./FormSubmitted";
 import Header from "../homepage/header/Header";
-import Footer from "../homepage/footer/Footer";
 
 const DodajZbiorke = () => {
   const [formStep, setFormStep] = useState(1);
