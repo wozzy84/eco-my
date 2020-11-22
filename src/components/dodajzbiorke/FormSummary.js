@@ -13,59 +13,34 @@ const FormSummary = ({ form, values }) => {
     <>
       <h3>Podsumowanie:</h3>
       <Row>
-        <Col>Nazwa Zbiórki</Col>
-        <Col>{values.name}</Col>
-      </Row>
-      <Row>
-        <Col>Zbierane rzeczy</Col>
-        <Col>{filtered.map((el) => el + ", ")}</Col>
-      </Row>
-      <Row>
-        <Col>Cel Zbiórki</Col>
-        <Col>{values.cel.cel || "-"}</Col>
-      </Row>
-      <Row>
-        <Col>Opis</Col>
-        <Col>{values.opis}</Col>
-      </Row>
-      <Row>
-        <Col>Miejsce Zbiórki</Col>
-        <Col>{values.address}</Col>
-      </Row>
-      <Row>
-        <Col>Termin Rozpoczęcia</Col>
-        <Col>{values.startDate.toLocaleDateString()}</Col>
-      </Row>
-      <Row>
-        <Col>Termin zakończenia</Col>
-        <Col>{values?.endDate?.toLocaleDateString()}</Col>
-      </Row>
-      <Row>
-        <Col>Bezterminowo</Col>
-        <Col>{values.bezterminowo ? "TAK" : "NIE"}</Col>
-      </Row>
-      <Row>
-        <Col>Godziny otwarcia</Col>
         <Col>
-          od {values?.startHour?.toLocaleTimeString()} do{" "}
-          {values?.endHour?.toLocaleTimeString()}{" "}
+          <p className="form__cat-title">Nazwa Zbiórki</p>
+          {values.name || "-"}
+          <p className="form__cat-title"> Zbierane rzeczy</p>
+          {filtered.map((el) => el + ", ")}
+          <p className="form__cat-title">Cel Zbiórki</p>
+          {values.cel.cel || "-"}
+          <p className="form__cat-title">Opis</p>
+          {values.opis || "-"}
+          <p className="form__cat-title">Miejsce Zbiórki</p>
+          {values.address || "-"}
+          <p className="form__cat-title">Termin Rozpoczęcia</p>
+          {values.startDate.toLocaleDateString() || "-"}
+          <p className="form__cat-title">Termin zakończenia</p>
+          {values?.endDate?.toLocaleDateString() || "-"}
+          <p className="form__cat-title">Bezterminowo</p>
+          {values.bezterminowo ? "TAK" : "NIE"}
+          <p className="form__cat-title">Godziny otwarcia</p> od{" "}
+          {values?.startHour?.toLocaleTimeString()} do{" "}
+          {values?.endHour?.toLocaleTimeString()} Odbiorca
+          {values.odbiorca}
+          <p className="form__cat-title">Osoba kontakowa</p>{" "}
+          {values.contactPerson || "-"}{" "}
+          <p className="form__cat-title">Telefon kontaktowy</p>
+          {values.contactPhone || "-"}
+          <p className="form__cat-title">Tagi</p>
+          {values?.tagArr?.map((el) => el + ", ") || "-"}
         </Col>
-      </Row>
-      <Row>
-        <Col>Odbiorca</Col>
-        <Col>{values.odbiorca}</Col>
-      </Row>
-      <Row>
-        <Col>Osoba kontakowa</Col>
-        <Col>{values.contactPerson}</Col>
-      </Row>
-      <Row>
-        <Col>Telefon kontaktowy</Col>
-        <Col>{values.contactPhone}</Col>
-      </Row>
-      <Row>
-        <Col>Tagi</Col>
-        <Col>{values?.tagArr?.map((el) => el + ", ")} </Col>
       </Row>
     </>
   );

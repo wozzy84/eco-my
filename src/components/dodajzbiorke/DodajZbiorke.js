@@ -88,12 +88,16 @@ const DodajZbiorke = () => {
         >
           {(form) => getCurrentForm(formStep, form)}
         </Formik>
-        <Button className="form__button" onClick={handlePrev}>
-          Cofnij
-        </Button>
-        <Button className="form__button" onClick={handleNext}>
-          Dalej
-        </Button>
+        {formStep <= 7 && (
+          <>
+            <Button className="form__button" onClick={handlePrev}>
+              Cofnij
+            </Button>
+            <Button className="form__button" onClick={handleNext}>
+              Dalej
+            </Button>
+          </>
+        )}
       </Container>
     </>
   );
