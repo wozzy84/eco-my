@@ -14,7 +14,7 @@ const ImgBox = ({face, name, clicked}) => {
         <img alt={name} src={face}/>
         {active && <ImgTick alt='tick' src={tick}/>}
 
-        <H3 isWhite>
+        <H3>
           {name}
         </H3>
       </Img>

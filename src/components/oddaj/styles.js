@@ -8,7 +8,7 @@ margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #282c34;
+   background-color: #f5f5f3;
   @media (max-width: 360px) {
     flex-wrap: wrap;
   }
@@ -16,8 +16,8 @@ margin: 0 auto;
 
 export const Items = styled.div`
     width: 100%;
-    padding-top: 100px;
     display: flex;
+    justify-content: center;
     
     @media (max-width: 360px) {
       width: 30%;
