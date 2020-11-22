@@ -14,6 +14,8 @@ import * as wasteData from "../../data/waste_collecting_places.json";
 import * as realEstateData from "../../data/real_estate.json";
 import Header from "../homepage/header/Header.js";
 
+import { useLocation } from "react-router-dom";
+
 const mapCenter = { lat: 51.131271, lng: 23.4745222 }; // Chełm city
 const googleMapsApiKey = "AIzaSyDCYlmvsutOI1lUyi7gPJQlMEXqwTsdZQE";
 // const googleMapsApiKey = process.env.REACT_APP_GOOGLE_KEY;
@@ -94,9 +96,10 @@ const generateKey = () => Math.random().toString(36).substring(7);
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 const Find = ({ types }) => {
+  const location = useLocation();
   return (
     <div style={{ width: "100%", height: "80vh" }}>
-      <Header />
+      {location.pathname !== "/oddaj" && <Header />}
       <WrappedMap
         googleMapURL={googleMapURL}
         loadingElement={<div style={{ height: "100%" }} />}

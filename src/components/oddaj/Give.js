@@ -11,6 +11,7 @@ import GiveMap from "./GiveMap";
 import Header from "../homepage/header/Header";
 const Give = () => {
   // const [active, setActive] = useState(false);
+
   const [types, setTypes] = useState([]);
   const photos = [
     {

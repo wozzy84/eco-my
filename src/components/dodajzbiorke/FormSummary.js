@@ -32,8 +32,9 @@ const FormSummary = ({ form, values }) => {
           {values.bezterminowo ? "TAK" : "NIE"}
           <p className="form__cat-title">Godziny otwarcia</p> od{" "}
           {values?.startHour?.toLocaleTimeString()} do{" "}
-          {values?.endHour?.toLocaleTimeString()} Odbiorca
-          {values.odbiorca}
+          {values?.endHour?.toLocaleTimeString()}
+          <p className="form__cat-title">Odbiorca</p>
+          {values.odbiorca === "Inny" ? values.innyOdbiorca : values.odbiorca}
           <p className="form__cat-title">Osoba kontakowa</p>{" "}
           {values.contactPerson || "-"}{" "}
           <p className="form__cat-title">Telefon kontaktowy</p>

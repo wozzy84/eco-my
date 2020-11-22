@@ -48,6 +48,7 @@ const DodajZbiorke = () => {
     startHour: "",
     opis: "",
     odbiorca: "",
+    innyOdbiorca: "",
   };
 
   const getCurrentForm = (step, form) => {

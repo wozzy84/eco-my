@@ -20,7 +20,10 @@ const FormSubmitted = ({ values }) => {
       {success && (
         <Alert variant="success">
           Gratulacje, udało Ci się wysłać zgłoszenie zbiórki do{" "}
-          {values.odbiorca || "wybranego odbiorcy"} i Urzędu Miasta Chełm
+          {(values.odbiorca === "Inny"
+            ? values.innyOdbiorca
+            : values.odbiorca) || "wybranego odbiorcy"}{" "}
+          i Urzędu Miasta Chełm
         </Alert>
       )}
     </>

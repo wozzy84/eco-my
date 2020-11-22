@@ -1,9 +1,16 @@
 import React from "react";
-import {GiveContainer, MapContainer, Map, ListPlaces, Place, PlaceText} from "./styles";
-import {H3} from "../atoms/styles";
+import {
+  GiveContainer,
+  MapContainer,
+  Map,
+  ListPlaces,
+  Place,
+  PlaceText,
+} from "./styles";
+import { H3 } from "../atoms/styles";
 import Find from "../znajdzzbiorke/Find";
 
-const GiveMap = ({types}) => {
+const GiveMap = ({ types }) => {
   // const meds = [
   //   {
   //     adress: '3-go Maja',
@@ -129,12 +136,11 @@ const GiveMap = ({types}) => {
         <H3>Zbiórki w Twojej okolicy</H3>
         <MapContainer>
           <Find types={types} />
-
         </MapContainer>
-      </GiveContainer>;
+      </GiveContainer>
+      ;
     </>
-  )
+  );
 };
 
 export default GiveMap;
-
