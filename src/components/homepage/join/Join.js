@@ -1,9 +1,11 @@
 import React from 'react';
 import {JoinContainer, Box} from './styles';
-import {H2} from '../../atoms/styles';
+import {H4} from '../../atoms/styles';
 import BoxItems from './BoxItems';
 import imgFirst from '../../../styles/assets/img/group-volunteers-joining_01a.jpg';
 import imgSecond from '../../../styles/assets/img/618_01a-min.jpg';
+import {Img, TitleContainer} from "../product/styles";
+import img from "../../../styles/assets/img/leaf-white.png";
 
 const Join = () => {
     const titleFirst = 'Jestem mieszkańcem';
@@ -17,9 +19,12 @@ const Join = () => {
 
     return (
         <JoinContainer>
-            <H2>
-                Dołącz do społeczności ecoMy i przekonaj się, że śmieć to pieniądz
-            </H2>
+            <TitleContainer >
+                <H4 isWhite data-aos="fade-up" >
+                  Dołącz do społeczności ecomy i zobacz jak łatwo jest żyć ekologicznie!
+                </H4>
+                <Img src={img} data-aos="fade-up"/>
+            </TitleContainer>
             <Box>
                 <BoxItems
                     title={titleFirst}

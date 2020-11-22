@@ -1,7 +1,11 @@
 import styled from 'styled-components';
+import img from '../../../../src/styles/assets/img/city-wroclove-gray-min.jpg';
 
 export const JoinContainer = styled.div`
   width: 100%;
+  background-image: url(${img});
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const Box = styled.div`
@@ -29,6 +33,7 @@ export const Text = styled.p`
   width: 70%;
   text-align: center;
   line-height: 25px;
+  color:#fff;
   @media (max-width: 360px) {
     width: 90%;
   }
@@ -47,17 +52,13 @@ export const Img = styled.div`
   }
 `;
 
-export const Button = styled.button`
-  margin-top: 20px;
-  width: 200px;
-  padding: 15px 10px;
- background-color: #4b9382;
-  color: #fff;
-  border-radius: 2em;
-  font-size: 16px;
-  letter-spacing: 1px;
-  :hover {
-    cursor: pointer;
-    background-color: #4fc663;
-  }
+export const TitleContainer = styled.div`
+  width: 100%;
+  height: 400px;
+  background-color: #4b9382;
+  display: flex;
+  align-items: center;
+  position: relative;
 `;
+
+

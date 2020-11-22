@@ -6,7 +6,7 @@ const BoxItems = ({title, text, img}) => {
     return (
         <>
             <TextBox>
-                <H3>{title}</H3>
+                <H3 isWhite>{title}</H3>
                 <Text>{text}</Text>
             </TextBox>
             <Img>

@@ -57,7 +57,6 @@ export const HonPage = styled.h1`
  
   font-size: 68px;
   color: #4b9382;
-  font-family: 'Mali', cursive;
   font-weight: 700;
   margin-top: 20px;
   display: block;
